@@ -1,2 +1,2 @@
 # KiruthikaRamadoss.github.io
-Portfolio showcasing real-world projects in data analytics, machine learning, and Power BI
+Portfolio showcasing real-world projects in Data Analytics, Machine Learning, and Power BI
