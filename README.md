@@ -50,7 +50,6 @@ Developed a scalable, real-time air quality monitoring system using wireless sen
 **Version Control & Agile Tools:** Git, Jira, Agile Methodologies
 **Soft Skills:** Critical Thinking, Organizational Skills, Detail-Oriented, Leadership, Problem-Solving
 
-...
 
 ## Highlights:
 
@@ -59,7 +58,6 @@ Developed a scalable, real-time air quality monitoring system using wireless sen
 - Texas State Graduate Merit Fellowship (2024–2025), awarded for academic excellence  
 - Chief Minister’s Award for Excellence in E-Governance (2018), recognized for social-impact GIS project
 
-...
 
 ## Let’s Connect!
 
