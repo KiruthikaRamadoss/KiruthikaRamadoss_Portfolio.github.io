@@ -8,7 +8,7 @@
 
 ---
 
-## Currently
+## ⚒️ Currently
 
 - Graduate student in Data Analytics & Information Systems at Texas State University (Current GPA: 4.0)
 - Leading tech innovation as Vice President at Level Up student organization
