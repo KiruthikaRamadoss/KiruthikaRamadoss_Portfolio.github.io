@@ -1,4 +1,6 @@
-Hello, I'm Kiruthika Ramadoss | Based in Austin, TX
+# Hi there, I'm Kiruthika Ramadoss | Based in Austin, TX
+
+**Welcome to my GitHub profile!**
 
 I’m a data and machine learning enthusiast currently pursuing my MS in Data Analytics & Information Systems at Texas State University (Current GPA: 4.0). I'm passionate about turning data into meaningful insights and building scalable, real-world solutions. With a strong foundation in Python, SQL, and Power BI, I enjoy applying analytics, automation, and machine learning to solve complex problems and drive decision-making.
 
