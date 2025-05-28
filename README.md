@@ -9,6 +9,12 @@ Graduating Dec 2025 | Open to Fall 2025 Internship Opportunities in Data Analyti
 ###  Real-Time Network Anomaly Detection  
 - Detected anomalies in network traffic using Isolation Forest and Random Forest with SMOTE for class balancing; the best model achieved 83% recall and 63% accuracy.
 - Engineered features and applied PCA for dimensionality reduction to optimize performance; developed a scalable ML workflow for real-time security monitoring.
+- Presented the project at TXST 1st Data and AI Day – Student Poster Showcase (2025), highlighting its relevance in real-world cybersecurity use cases.
+
+Tools & Technologies: Python, scikit-learn, pandas, matplotlib, SMOTE, PCA, Jupyter Notebook
+
+🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection)
+
 
 ###  Home Loan Credit Scoring Model  
 - Developed robust home loan credit scoring model incorporating diverse data sources
