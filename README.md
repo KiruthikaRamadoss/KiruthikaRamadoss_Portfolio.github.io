@@ -20,7 +20,7 @@
 
 ---
 
-## 🚀 Projects I've Worked On:
+## 📈 Projects I've Worked On:
 
 
 ###  Sentiment Analysis of Twitter (X) Data  
@@ -121,7 +121,7 @@ Power BI dashboard visualizes:
 
 ---
 
-## 🏆 🌟 Highlights:
+## 🌟 Highlights:
 
 - Vice President of Technology and Innovation, Level Up Professional Student Organization  
 - Texas State Graduate Merit Fellowship and Competitive Scholarship (2024–2025), awarded for academic excellence
