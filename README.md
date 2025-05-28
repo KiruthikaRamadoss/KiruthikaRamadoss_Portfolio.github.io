@@ -53,13 +53,31 @@ A predictive analytics project that classifies diabetes risk based on clinical h
 
 
 ###  Home Loan Credit Scoring Model  
-- Developed robust home loan credit scoring model incorporating diverse data sources
-- Enhanced risk assessment accuracy by 85% and improved decision-making for loan approvals by 98.5%
+
+🔗 [View GitHub Repository] (https://github.com/KiruthikaRamadoss/Home-Loan-Approval-Prediction/tree/main)
+
+A classification model designed to evaluate creditworthiness and predict home loan approval outcomes using supervised machine learning techniques.
+
+**Key Contributions:**
+
+- Engineered features from borrower profiles, credit history, and loan attributes to improve model accuracy.
+- Built and tested models including Logistic Regression, Decision Tree, and Random Forest.
+- Achieved 85% accuracy and boosted loan approval decision efficiency by 98.5%.
+- Presented insights via Power BI and model evaluation metrics.
+
+Technologies Used: Python, scikit-learn, pandas, Power BI, Jupyter Notebook
 
 
 ##  Dashboards & Visualizations:
 
 **Power BI**: Sentiment Analysis of Twitter (X) Data
+
+Power BI dashboard visualizes:
+- Sentiment by time of day (morning, noon, night)
+- Sentiment distribution by age group
+- Sentiment class proportions
+
+📊 [View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
 
 ## Publications:
 
