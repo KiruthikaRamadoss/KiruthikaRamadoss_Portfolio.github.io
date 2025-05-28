@@ -32,10 +32,10 @@ Handled data preprocessing and class imbalance with SMOTE, evaluated and visuali
 
 ## Publications:
 
-**Detecting and Analyzing Air Quality Using Low-Cost Sensors to Reduce Urban Air Pollution**  
+**Detecting and Analyzing Air Quality to Reduce Urban Air Pollution**  
 
 *IEEE Xplore – 2019 International Conference on Systems, Computing, and Networking (ICSCAN)*  
-Developed a scalable, real-time air quality monitoring system using wireless sensor networks and low-cost sensors. Enabled real-time data collection and environmental analysis to support smart city initiatives in developing regions.  
+Developed a scalable, real-time air quality monitoring system. Enabled real-time data collection and environmental analysis to support smart city initiatives in developing regions.  
 [View Publication on IEEE Xplore](https://ieeexplore.ieee.org/document/8878780)
 
 
