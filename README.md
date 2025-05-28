@@ -1,12 +1,13 @@
-# Hi there, I'm Kiruthika Ramadoss | Based in Austin, TX
+# Hi there, I'm Kiruthika Ramadoss 👋
 
 **Welcome to my GitHub profile!**
 
 I’m a data and machine learning enthusiast currently pursuing my MS in Data Analytics & Information Systems at Texas State University (Current GPA: 4.0). I'm passionate about turning data into meaningful insights and building scalable, real-world solutions. With a strong foundation in Python, SQL, and Power BI, I enjoy applying analytics, automation, and machine learning to solve complex problems and drive decision-making.
 
-Graduating Dec 2025 | Open to Fall 2025 Internship Opportunities in Data Analytics, Data Engineering, or Machine Learning
+**Graduating Dec 2025 | Open to Fall 2025 Internship Opportunities in Data Analytics, Data Engineering, or Machine Learning**
 
 ##  Projects I've Worked On:
+
 
 ###  Sentiment Analysis of Twitter (X) Data  
 
@@ -41,6 +42,7 @@ Technologies Used: Python, scikit-learn, pandas, matplotlib, SMOTE, PCA, Jupyter
 
 
 ### Diabetes Prediction Using Health Indicators  
+
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Diabetes-Prediction-ML)
 
 A predictive analytics project that classifies diabetes risk based on clinical health indicators using supervised machine learning.
@@ -80,6 +82,7 @@ Power BI dashboard visualizes:
 - Sentiment class proportions
 
 📊 [View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
+
 
 ## Publications:
 
