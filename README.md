@@ -111,12 +111,19 @@ Power BI dashboard visualizes:
 ## 🛠️ My Toolkit:
 
 **Programming Languages:** SQL, Python, HTML
+
 **Data Science & Analytics:** Data Analysis, Statistical Methods, Data Wrangling, Data Mining, Databricks, Data Pipelines
+
 **Machine Learning & AI:** Machine Learning, Artificial Intelligence, NLP, NLU/NLG, Prompt Engineering
+
 **Visualization & BI Tools:** Tableau, Power BI, Advanced Excel
+
 **Development & IDEs:** PyCharm, Visual Studio, Jupyter Notebook, Google Colab, Anaconda
+
 **Cloud & Big Data:** AWS, Google Cloud Platform (GCP), Azure Synapse, Spark, PySpark, Kafka, Airflow
+
 **Version Control & Agile Tools:** Git, Jira, Agile Methodologies
+
 **Soft Skills:** Critical Thinking, Organizational Skills, Detail-Oriented, Leadership, Problem-Solving
 
 ---
