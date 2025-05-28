@@ -6,7 +6,7 @@ I’m a data and machine learning enthusiast currently pursuing my MS in Data An
 
 **Graduating Dec 2025 | Open to Fall 2025 Internship Opportunities in Data Analytics, Data Engineering, or Machine Learning**
 
-##  Projects I've Worked On:
+## 🚀 Projects I've Worked On:
 
 
 ###  Sentiment Analysis of Twitter (X) Data  
@@ -94,7 +94,7 @@ Power BI dashboard visualizes:
 [View Publication on IEEE Xplore](https://ieeexplore.ieee.org/document/8878780)
 
 
-## My Toolkit:
+## 🛠️ My Toolkit:
 
 **Programming Languages:** SQL, Python, HTML
 **Data Science & Analytics:** Data Analysis, Statistical Methods, Data Wrangling, Data Mining, Databricks, Data Pipelines
@@ -114,7 +114,7 @@ Power BI dashboard visualizes:
 - Chief Minister’s Award for Excellence in E-Governance (2018), recognized for social-impact GIS project
 
 
-## Let’s Connect!
+## 🤝 Let’s Connect!
 
 - [LinkedIn](https://www.linkedin.com/in/kiruthikaramadoss/)
 - [GitHub](https://github.com/KiruthikaRamadoss)  
