@@ -7,15 +7,30 @@ Graduating Dec 2025 | Open to Fall 2025 Internship Opportunities in Data Analyti
 ##  Projects I've Worked On:
 
 ###  Sentiment Analysis of Twitter (X) Data  
-- Analyzed tweet content using TF-IDF and categorized sentiments into neutral, positive, and negative; extracted insights on tweet length, word usage, and sentiment distribution to understand audience behavior.
-- Built a Power BI dashboard to visualize sentiment trends by age group and posting time, highlighting key patterns.
-  
-###  Real-Time Network Anomaly Detection  
-- Detected anomalies in network traffic using Isolation Forest and Random Forest with SMOTE for class balancing; the best model achieved 83% recall and 63% accuracy.
-- Engineered features and applied PCA for dimensionality reduction to optimize performance; developed a scalable ML workflow for real-time security monitoring.
-- Presented the project at TXST 1st Data and AI Day – Student Poster Showcase (2025), highlighting its relevance in real-world cybersecurity use cases.
+A machine learning and text mining project that classifies tweet sentiments (positive, neutral, negative) using TF-IDF and supervised learning models.
 
-Tools & Technologies: Python, scikit-learn, pandas, matplotlib, SMOTE, PCA, Jupyter Notebook
+**Key Contributions:**
+
+- Preprocessed and vectorized ~45,000 tweets using TF-IDF.
+- Built and compared Logistic Regression, Naive Bayes, and SVM classifiers.
+- Created interactive Power BI dashboards to visualize sentiment trends by age and time of tweet.
+- Explored public sentiment patterns to support marketing and brand analysis.
+
+Technologies Used: Python, scikit-learn, pandas, TF-IDF, Power BI, Jupyter Notebook
+
+🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection)
+
+###  Real-Time Network Anomaly Detection  
+An end-to-end ML pipeline to detect anomalies in synthetic network traffic, simulating cybersecurity threat identification.
+
+**Key Contributions:**
+
+- Developed an anomaly detection model using Isolation Forest and Random Forest with SMOTE to address class imbalance.
+- Applied Principal Component Analysis (PCA) to enhance model performance and reduce dimensionality.
+- Achieved 83% recall and 63% accuracy in detecting anomalous traffic.
+- Presented at TXST 1st Data and AI Day – Student Poster Showcase (2025).
+
+Technologies Used: Python, scikit-learn, pandas, matplotlib, SMOTE, PCA, Jupyter Notebook
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection)
 
