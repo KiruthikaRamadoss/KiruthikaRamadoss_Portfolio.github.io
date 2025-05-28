@@ -18,7 +18,7 @@ A machine learning and text mining project that classifies tweet sentiments (pos
 
 Technologies Used: Python, scikit-learn, pandas, TF-IDF, Power BI, Jupyter Notebook
 
-🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection)
+🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis)
 
 ###  Real-Time Network Anomaly Detection  
 An end-to-end ML pipeline to detect anomalies in synthetic network traffic, simulating cybersecurity threat identification.
