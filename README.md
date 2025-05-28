@@ -20,7 +20,7 @@
 
 ---
 
-## 📈 Projects I've Worked On:
+## 💡 Projects I've Worked On:
 
 
 ###  Sentiment Analysis of Twitter (X) Data  
