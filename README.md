@@ -6,6 +6,10 @@ Graduating Dec 2025 | Open to Fall 2025 Internship Opportunities in Data Analyti
 
 ##  Projects I've Worked On:
 
+###  Sentiment Analysis of Twitter (X) Data  
+- Analyzed tweet content using TF-IDF and categorized sentiments into neutral, positive, and negative; extracted insights on tweet length, word usage, and sentiment distribution to understand audience behavior.
+- Built a Power BI dashboard to visualize sentiment trends by age group and posting time, highlighting key patterns.
+  
 ###  Real-Time Network Anomaly Detection  
 - Detected anomalies in network traffic using Isolation Forest and Random Forest with SMOTE for class balancing; the best model achieved 83% recall and 63% accuracy.
 - Engineered features and applied PCA for dimensionality reduction to optimize performance; developed a scalable ML workflow for real-time security monitoring.
@@ -15,21 +19,14 @@ Tools & Technologies: Python, scikit-learn, pandas, matplotlib, SMOTE, PCA, Jupy
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection)
 
+###  Diabetes Prediction Using Health Indicators  
+- Built classification models including Logistic Regression and Neural Network to predict diabetes risk; best model achieved 96% accuracy.
+- Extracted insights from health indicators to support early diabetes detection
+Handled data preprocessing and class imbalance with SMOTE, evaluated and visualized model performance
 
 ###  Home Loan Credit Scoring Model  
 - Developed robust home loan credit scoring model incorporating diverse data sources
 - Enhanced risk assessment accuracy by 85% and improved decision-making for loan approvals by 98.5%
-
-
-###  Diabetes Prediction Using Health Indicators  
-- Built classification models including Logistic Regression and Neural Network to predict diabetes risk; best model achieved 96% accuracy.
-- Extracted insights from health indicators to support early diabetes detection
-Handled data preprocessing and class imbalance with SMOTE, evaluated and visualized model performance 
-
-
-###  Sentiment Analysis of Twitter (X) Data  
-- Analyzed tweet content using TF-IDF and categorized sentiments into neutral, positive, and negative; extracted insights on tweet length, word usage, and sentiment distribution to understand audience behavior.
-- Built a Power BI dashboard to visualize sentiment trends by age group and posting time, highlighting key patterns.
 
 
 ##  Dashboards & Visualizations:
