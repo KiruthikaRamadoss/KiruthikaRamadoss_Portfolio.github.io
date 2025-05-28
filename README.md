@@ -35,7 +35,8 @@ Handled data preprocessing and class imbalance with SMOTE, evaluated and visuali
 **Detecting and Analyzing Air Quality to Reduce Urban Air Pollution**  
 
 *IEEE Xplore – 2019 International Conference on Systems, Computing, and Networking (ICSCAN)*  
-Developed a scalable, real-time air quality monitoring system. Enabled real-time data collection and environmental analysis to support smart city initiatives in developing regions.  
+- Developed a scalable, real-time air quality monitoring system.
+- Enabled real-time data collection and environmental analysis to support smart city initiatives in developing regions.  
 [View Publication on IEEE Xplore](https://ieeexplore.ieee.org/document/8878780)
 
 
@@ -55,7 +56,7 @@ Developed a scalable, real-time air quality monitoring system. Enabled real-time
 
 - Current GPA: 4.0 – MS in Data Analytics & Information Systems, Texas State University (Expected Dec 2025)  
 - Vice President of Technology and Innovation, Level Up Professional Student Organization  
-- Texas State Graduate Merit Fellowship (2024–2025), awarded for academic excellence  
+- Texas State Graduate Merit Fellowship and Competitive Scholorship (2024–2025), awarded for academic excellence  
 - Chief Minister’s Award for Excellence in E-Governance (2018), recognized for social-impact GIS project
 
 
