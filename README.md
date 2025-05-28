@@ -21,7 +21,6 @@ A machine learning and text mining project that classifies tweet sentiments (pos
 
 Technologies Used: Python, scikit-learn, pandas, TF-IDF, Power BI, Jupyter Notebook
 
-...
 
 ###  Real-Time Network Anomaly Detection  
 
@@ -38,7 +37,6 @@ An end-to-end ML pipeline to detect anomalies in synthetic network traffic, simu
 
 Technologies Used: Python, scikit-learn, pandas, matplotlib, SMOTE, PCA, Jupyter Notebook
 
-...
 
 ###  Diabetes Prediction Using Health Indicators  
 - Built classification models including Logistic Regression and Neural Network to predict diabetes risk; best model achieved 96% accuracy.
