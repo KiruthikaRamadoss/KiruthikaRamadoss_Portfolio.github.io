@@ -7,6 +7,9 @@ Graduating Dec 2025 | Open to Fall 2025 Internship Opportunities in Data Analyti
 ##  Projects I've Worked On:
 
 ###  Sentiment Analysis of Twitter (X) Data  
+
+🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis)
+
 A machine learning and text mining project that classifies tweet sentiments (positive, neutral, negative) using TF-IDF and supervised learning models.
 
 **Key Contributions:**
@@ -18,9 +21,12 @@ A machine learning and text mining project that classifies tweet sentiments (pos
 
 Technologies Used: Python, scikit-learn, pandas, TF-IDF, Power BI, Jupyter Notebook
 
-🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis)
+...
 
 ###  Real-Time Network Anomaly Detection  
+
+🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection)
+
 An end-to-end ML pipeline to detect anomalies in synthetic network traffic, simulating cybersecurity threat identification.
 
 **Key Contributions:**
@@ -32,7 +38,7 @@ An end-to-end ML pipeline to detect anomalies in synthetic network traffic, simu
 
 Technologies Used: Python, scikit-learn, pandas, matplotlib, SMOTE, PCA, Jupyter Notebook
 
-🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection)
+...
 
 ###  Diabetes Prediction Using Health Indicators  
 - Built classification models including Logistic Regression and Neural Network to predict diabetes risk; best model achieved 96% accuracy.
