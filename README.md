@@ -6,6 +6,8 @@
 - I'm passionate about turning data into meaningful insights and building scalable, real-world solutions
 - With a strong foundation in Python, SQL, and Power BI, I enjoy applying analytics, automation, and machine learning to solve complex problems and drive decision-making
 
+---
+
 ## Currently
 
 - Graduate student in Data Analytics & Information Systems at Texas State University (Current GPA: 4.0)
@@ -16,6 +18,7 @@
 
 **Graduating Dec 2025 | Open to Fall 2025 Internship Opportunities in Data Analytics, Data Engineering, or Machine Learning**
 
+---
 
 ## 🚀 Projects I've Worked On:
 
@@ -78,6 +81,7 @@ A classification model designed to evaluate creditworthiness and predict home lo
 - Presented insights via Power BI and model evaluation metrics.
 - **Technologies Used:** Python, scikit-learn, pandas, Power BI, Jupyter Notebook
 
+---
 
 ##  Dashboards & Visualizations:
 
@@ -90,6 +94,7 @@ Power BI dashboard visualizes:
 
 📊 [View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
 
+---
 
 ## Publications:
 
@@ -100,6 +105,7 @@ Power BI dashboard visualizes:
 - Enabled real-time data collection and environmental analysis to support smart city initiatives in developing regions.  
 [View Publication on IEEE Xplore](https://ieeexplore.ieee.org/document/8878780)
 
+---
 
 ## 🛠️ My Toolkit:
 
@@ -112,6 +118,7 @@ Power BI dashboard visualizes:
 **Version Control & Agile Tools:** Git, Jira, Agile Methodologies
 **Soft Skills:** Critical Thinking, Organizational Skills, Detail-Oriented, Leadership, Problem-Solving
 
+---
 
 ## Highlights:
 
@@ -120,6 +127,7 @@ Power BI dashboard visualizes:
 - Recognized for academic excellence with a perfect GPA and fellowship awards at Texas State University
 - Chief Minister’s Award for Excellence in E-Governance (2018), recognized for social-impact GIS project
 
+---
 
 ## 🤝 Let’s Connect!
 
