@@ -23,7 +23,7 @@
 ## 💡 Projects I've Worked On:
 
 
-###  Sentiment Analysis of Twitter (X) Data  
+###  1. Sentiment Analysis of Twitter (X) Data  
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis)
 
@@ -38,7 +38,7 @@ A machine learning and text mining project that classifies tweet sentiments (pos
 - **Technologies Used:** Python, scikit-learn, pandas, TF-IDF, Power BI, Jupyter Notebook
 
 
-###  Real-Time Network Anomaly Detection  
+###  2. Real-Time Network Anomaly Detection  
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection)
 
@@ -53,7 +53,7 @@ An end-to-end ML pipeline to detect anomalies in synthetic network traffic, simu
 - **Technologies Used:** Python, scikit-learn, pandas, matplotlib, SMOTE, PCA, Jupyter Notebook
 
 
-### Diabetes Prediction Using Health Indicators  
+### 3. Diabetes Prediction Using Health Indicators  
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Diabetes-Prediction-ML)
 
@@ -67,7 +67,7 @@ A predictive analytics project that classifies diabetes risk based on clinical h
 - **Technologies Used:** Python, scikit-learn, pandas, matplotlib, seaborn, SMOTE, Jupyter Notebook
 
 
-###  Home Loan Credit Scoring Model  
+###  4. Home Loan Credit Scoring Model  
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Home-Loan-Approval-Prediction/tree/main)
 
