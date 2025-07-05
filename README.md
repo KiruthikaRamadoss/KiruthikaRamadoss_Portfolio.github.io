@@ -16,7 +16,7 @@
 - Building end-to-end data pipelines and interactive dashboards with Python, SQL, and Power BI
 
 
-**Graduating Dec 2025 | Open to Fall 2025 Internship Opportunities in Data Analytics, Data Engineering, or Machine Learning**
+**Graduating Dec 2025 | Open to Full-Time Roles in Data Analytics, Data Engineering, or Machine Learning**
 
 ---
 
