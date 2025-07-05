@@ -83,16 +83,23 @@ A classification model designed to evaluate creditworthiness and predict home lo
 
 ---
 
-## 📜 Certifications
+## 🎓 Certifications
 
-- [AWS Certified Cloud Practitioner](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf)
+- [AWS Certified Cloud Practitioner](AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf)
 - [Time Series Analysis in Power BI](Time%20Series%20Analysis%20in%20Power%20BI.pdf)
 - [Data-Driven Decision Making in SQL](Data-Driven%20Decision%20Making%20in%20SQL%20certificate.pdf)
-- [Advanced Google Analytics](certificate%20Excel.pdf)
-- [Implementing AI Solutions in Business](certificate%20Stat.pdf)
+- [Advanced Google Analytics](Google%20adv%20analytics%20.pdf)
 - [End-to-End Machine Learning](End%20to%20end%20ML.pdf)
 - [Large Language Models (LLM) Concepts](LLm%20certificate.pdf)
+- [Python for Data Science & Data Visualization](Python_for_Data_Science_Badge20240903-7-2i5npi.pdf)
 - [Supply Chain Analytics in Python](Supply%20chain%20analytics%20in%20Python.pdf)
+- [ETL in Python and SQL](CertificateOfCompletion_ETL%20in%20Python%20and%20SQL.pdf)
+- [Basic Data Visualization in Python](Certificate%20Basic%20Data%20Visualization%20in%20python.pdf)
+- [Introduction to Excel](certificate%20Excel.pdf)
+- [Introduction to Statistics](certificate%20Stat.pdf)
+- [Introduction to Python 101](Certificate%20Intro%20Pyhton%20101.pdf)
+- [Basic Data Visualization in SPSS](certificate%20for%20SPSS.pdf)
+- [Ramadoss Certificate - ShopTalks](Ramadoss%20Certificate%20-%20ShopTalks.pdf)
 
 ---
 
