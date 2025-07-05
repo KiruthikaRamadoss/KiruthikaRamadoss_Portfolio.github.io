@@ -83,6 +83,19 @@ A classification model designed to evaluate creditworthiness and predict home lo
 
 ---
 
+## 📜 Certifications
+
+- [AWS Certified Cloud Practitioner](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf)
+- [Time Series Analysis in Power BI](Time%20Series%20Analysis%20in%20Power%20BI.pdf)
+- [Data-Driven Decision Making in SQL](Data-Driven%20Decision%20Making%20in%20SQL%20certificate.pdf)
+- [Advanced Google Analytics](certificate%20Excel.pdf)
+- [Implementing AI Solutions in Business](certificate%20Stat.pdf)
+- [End-to-End Machine Learning](End%20to%20end%20ML.pdf)
+- [Large Language Models (LLM) Concepts](LLm%20certificate.pdf)
+- [Supply Chain Analytics in Python](Supply%20chain%20analytics%20in%20Python.pdf)
+
+---
+
 ## 📊 Dashboards & Visualizations:
 
 **Power BI**: Sentiment Analysis of Twitter (X) Data
