@@ -95,11 +95,11 @@ A classification model designed to evaluate creditworthiness and predict home lo
 - [Supply Chain Analytics in Python](Supply%20chain%20analytics%20in%20Python.pdf)
 - [ETL in Python and SQL](CertificateOfCompletion_ETL%20in%20Python%20and%20SQL.pdf)
 - [Basic Data Visualization in Python](Certificate%20Basic%20Data%20Visualization%20in%20python.pdf)
+- [Basic Data Visualization in SPSS](certificate%20for%20SPSS.pdf)
+- [Texas State ShopTalks](Ramadoss%20Certificate%20-%20ShopTalks.pdf)
 - [Introduction to Excel](certificate%20Excel.pdf)
 - [Introduction to Statistics](certificate%20Stat.pdf)
 - [Introduction to Python 101](Certificate%20Intro%20Pyhton%20101.pdf)
-- [Basic Data Visualization in SPSS](certificate%20for%20SPSS.pdf)
-- [Texas State ShopTalks](Ramadoss%20Certificate%20-%20ShopTalks.pdf)
 
 ---
 
