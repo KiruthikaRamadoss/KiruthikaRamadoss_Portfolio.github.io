@@ -8,6 +8,19 @@
 
 ---
 
+## 📑 Table of Contents
+
+- [⚒️ Currently](#️-currently)
+- [💡 Projects I've Worked On](#-projects-ive-worked-on)
+- [🎓 Certifications](#-certifications)
+- [📊 Dashboards & Visualizations](#-dashboards--visualizations)
+- [📃 Publications](#-publications)
+- [🛠️ My Toolkit](#️-my-toolkit)
+- [🌟 Highlights](#-highlights)
+- [🤝 Let’s Connect!](#-lets-connect)
+
+---
+
 ## ⚒️ Currently
 
 - Graduate student in Data Analytics & Information Systems at Texas State University (Current GPA: 4.0)
