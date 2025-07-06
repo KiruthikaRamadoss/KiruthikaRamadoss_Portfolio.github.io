@@ -163,10 +163,10 @@ Power BI dashboard visualizes:
 
 ## 🌟 Highlights:
 
-- Vice President of Technology and Innovation, Level Up Professional Student Organization  
-- Texas State Graduate Merit Fellowship and Competitive Scholarship (2024–2025), awarded for academic excellence
-- Recognized for academic excellence with a perfect GPA and fellowship awards at Texas State University
-- Chief Minister’s Award for Excellence in E-Governance (2018), recognized for social-impact GIS project
+- **Vice President of Technology and Innovation**, Level Up Professional Student Organization — led student initiatives in technology and innovation
+- **Texas State Graduate Merit Fellowship & Competitive Scholarship (2024–2025)** — awarded for academic excellence and leadership potential
+- **4.0 GPA** — consistent record of academic distinction in the MS in Data Analytics & Information Systems program
+- **Recognized for Excellence in E-Governance at the Chief Minister’s Student Hackathon (2018)** — acknowledged for a GIS project with social impact
 
 ---
 
