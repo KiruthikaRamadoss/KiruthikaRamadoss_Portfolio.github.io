@@ -80,7 +80,23 @@ A predictive analytics project that classifies diabetes risk based on clinical h
 - **Technologies Used:** Python, scikit-learn, pandas, matplotlib, seaborn, SMOTE, Jupyter Notebook
 
 
-###  4. Home Loan Credit Scoring Model  
+### 4. Avocado Retailing Analysis
+
+🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis)
+
+A data analytics project exploring retail trends in the U.S. avocado market using descriptive, predictive, and prescriptive analytics. It combines EDA, forecasting models, and optimization to generate actionable business insights.
+
+**Key Contributions:**
+
+- Cleaned and integrated USDA Market News and augmented retail datasets.
+- Built forecasting models (ARIMA, Facebook Prophet) to predict average avocado prices.
+- Applied prescriptive analytics using linear programming for supply chain optimization.
+- Developed actionable recommendations for pricing strategy and marketing.
+- Created detailed Jupyter Notebooks and professional visualizations.
+- **Technologies Used:** Python, pandas, matplotlib, seaborn, statsmodels, scikit-learn, Facebook Prophet, Jupyter Notebook
+
+
+###  5. Home Loan Credit Scoring Model  
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Home-Loan-Approval-Prediction/tree/main)
 
