@@ -115,6 +115,7 @@ A classification model designed to evaluate creditworthiness and predict home lo
 ## 🎓 Certifications
 
 - [AWS Certified Cloud Practitioner](certificates/AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf)
+- [Power BI Beginner to Pro] 
 - [Time Series Analysis in Power BI](certificates/Time%20Series%20Analysis%20in%20Power%20BI.pdf)
 - [Data-Driven Decision Making in SQL](certificates/Data-Driven%20Decision%20Making%20in%20SQL%20certificate.pdf)
 - [Advanced Google Analytics](certificates/Google%20adv%20analytics%20.pdf)
