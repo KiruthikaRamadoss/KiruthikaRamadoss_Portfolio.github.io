@@ -110,6 +110,20 @@ A classification model designed to evaluate creditworthiness and predict home lo
 - Presented insights via Power BI and model evaluation metrics.
 - **Technologies Used:** Python, scikit-learn, pandas, Power BI, Jupyter Notebook
 
+###  6. Competitive Analysis & Market Positioning for X + Applied AI Program
+
+🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Competitive-Analysis-Market-Positioning-for-X-Applied-AI-program)
+
+A Design Thinking project focused on strategically positioning McCoy College’s “X + Applied AI” initiative within the competitive landscape of AI-integrated business education.
+
+**Key Contributions:**
+
+- Applied the full Design Thinking process (Empathize → Define → Ideate → Prototype → Test)
+- Conducted user interviews, persona development, and competitive analysis
+- Delivered actionable recommendations aligned with learner needs and market trends
+- Proposed hybrid delivery models, industry mentorship, and flexible admissions pathways
+- **Technologies Used:** Design Thinking, Persona Mapping, Journey Mapping, SCAMPER, Miro
+
 ---
 
 ## 🎓 Certifications
