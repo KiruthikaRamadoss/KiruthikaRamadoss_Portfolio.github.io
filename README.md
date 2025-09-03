@@ -15,7 +15,7 @@
 - [💡 Projects I've Worked On](#-projects-ive-worked-on)  
 - [📊 Dashboards & Visualizations](#-dashboards--visualizations)  
 - [🎓 Certifications](#-certifications)  
-- [📜 Honors & Awards](#-honors--awards)  
+- [📜 Honors & Awards](#-honors---awards)  
 - [📃 Publications](#-publications)  
 - [🛠️ My Toolkit](#️-my-toolkit)  
 - [🤝 Let’s Connect!](#-lets-connect)  
