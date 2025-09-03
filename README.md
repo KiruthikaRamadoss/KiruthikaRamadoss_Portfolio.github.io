@@ -38,7 +38,7 @@
 
 - **Texas State Graduate Merit Fellowship & Competitive Scholarship (2024 - 2025)** – awarded for academic excellence
 - **4.0 GPA** – consistent record of academic distinction in the MS in Data Analytics & Information Systems program
-- **Recognized for Excellence in E-Governance at the Chief Minister’s Student Hackathon (2018)** – acknowledged for a project with social impact
+- **Chief Minister’s Award for Excellence in E-Governance Student Hackathon (2018)** – Recognized for a project with social impact
 - **Vice President of Technology and Innovation** – Led student-driven initiatives in technology adoption and innovation to improve organizational efficiency
 - **TXST Data & AI Day Poster Presentation (2025)** – presented research on real-time anomaly detection in network traffic using ML
 - **Project Lead** – conducted a U.S. retail market study and delivered insights on pricing strategy and supply chain efficiency
