@@ -193,6 +193,26 @@ Power BI dashboard visualizes:
 
 ---
 
+📜 **Honors & Awards**
+
+- **Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025)**  
+Endowed fellowship awarded through a rigorous selection process to graduate students for outstanding academic excellence, strong GPA, and demonstrated potential for leadership. Included tuition support and a non-resident tuition waiver 
+
+  ![Dorothy Fellowship Award Letter](assets/dorothy_fellowship.png)
+
+- **Competitive Graduate Scholarship (Summer 2025)**  
+Highly competitive scholarship recognizing graduate students for scholarly distinction, consistent performance, and commitment to professional growth
+
+- **Graduate Merit Fellowship (2024–2025)**  
+Prestigious merit-based fellowship awarded to high-achieving graduate students in recognition of exceptional academic performance and future potential. Provided tuition support and a non-resident tuition waiver for the academic year, highlighting my dedication to academic excellence and advancement in analytics
+
+  ![Graduate Merit Fellowship Award Letter](assets/graduate_merit.png)
+
+- **Chief Minister’s Award for Excellence in E-Governance for Students (2018)**  
+Received recognition at CII Connect 2018 with the Chief Minister’s Award for Excellence in E-Governance for Students. Honored for innovation and social impact in applying technology to improve public safety and governance
+
+---
+
 ## 🌟 Highlights:
 
 - **Vice President of Technology and Innovation**, Level Up Professional Student Organization — led student initiatives in technology and innovation
