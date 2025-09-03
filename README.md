@@ -143,7 +143,6 @@ A Design Thinking project focused on strategically positioning McCoy College’s
 - Proposed hybrid delivery models, industry mentorship, and flexible admissions pathways
 - **Technologies Used:** Design Thinking, Persona Mapping, Journey Mapping, SCAMPER, Miro
 
-
 ---
 
 ## 📊 Dashboards & Visualizations:
