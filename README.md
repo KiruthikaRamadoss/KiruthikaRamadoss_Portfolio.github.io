@@ -36,13 +36,13 @@
 
 ## 🌟 Highlights:
 
-- **Texas State Graduate Merit Fellowship & Competitive Scholarship (2024 - 2025)** — awarded for academic excellence and leadership potential
-- **4.0 GPA** — consistent record of academic distinction in the MS in Data Analytics & Information Systems program
-- **Recognized for Excellence in E-Governance at the Chief Minister’s Student Hackathon (2018)** — acknowledged for a GIS project with social impact
-- **Vice President of Technology and Innovation**, Level Up Professional Student Organization — led student initiatives in technology and innovation
-- **TXST Data & AI Day Poster Presentation (2025)** — presented research on real-time anomaly detection in network traffic using ML
-- **Avocado Retailing Analysis Project Lead** — conducted a U.S. retail market study and delivered data-driven insights on pricing strategy and supply chain efficiency
-- **IEEE International Conference (ICSCAN, 2019)** — published paper on real-time monitoring for smart city initiatives
+- **Texas State Graduate Merit Fellowship & Competitive Scholarship (2024 - 2025)** – awarded for academic excellence and leadership potential
+- **4.0 GPA** – consistent record of academic distinction in the MS in Data Analytics & Information Systems program
+- **Recognized for Excellence in E-Governance at the Chief Minister’s Student Hackathon (2018)** – acknowledged for a GIS project with social impact
+- **Vice President of Technology and Innovation** – Led student-driven initiatives in technology adoption and innovation to improve organizational efficiency
+- **TXST Data & AI Day Poster Presentation (2025)** – presented research on real-time anomaly detection in network traffic using ML
+- **Avocado Retailing Analysis Project Lead** – conducted a U.S. retail market study and delivered data-driven insights on pricing strategy and supply chain efficiency
+- **IEEE International Conference (ICSCAN, 2019)** – published paper on real-time monitoring for smart city initiatives
 
 ---
 
