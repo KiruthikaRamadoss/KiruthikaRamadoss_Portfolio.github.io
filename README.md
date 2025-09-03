@@ -10,26 +10,39 @@
 
 ## 📑 Table of Contents
 
-- [⚒️ Currently](#️-currently)
-- [💡 Projects I've Worked On](#-projects-ive-worked-on)
-- [🎓 Certifications](#-certifications)
-- [📊 Dashboards & Visualizations](#-dashboards--visualizations)
-- [📃 Publications](#-publications)
-- [🛠️ My Toolkit](#️-my-toolkit)
-- [🌟 Highlights](#-highlights)
-- [🤝 Let’s Connect!](#-lets-connect)
+- [⚒️ Currently](#️-currently)  
+- [🌟 Highlights](#-highlights)  
+- [💡 Projects I've Worked On](#-projects-ive-worked-on)  
+- [📊 Dashboards & Visualizations](#-dashboards--visualizations)  
+- [🎓 Certifications](#-certifications)  
+- [📜 Honors & Awards](#-honors--awards)  
+- [📃 Publications](#-publications)  
+- [🛠️ My Toolkit](#️-my-toolkit)  
+- [🤝 Let’s Connect!](#-lets-connect)  
 
 ---
 
 ## ⚒️ Currently
 
-- Graduate student in Data Analytics & Information Systems at Texas State University (Current GPA: 4.0)
-- Leading tech innovation as Vice President at Level Up student organization
-- Exploring advanced machine learning, real-time analytics, and cloud-based solutions
-- Building end-to-end data pipelines and interactive dashboards with Python, SQL, and Power BI
+- Graduate student in **Data Analytics & Information Systems** at Texas State University (Current GPA: 4.0)
+- Serving as **Vice President of Technology & Innovation** at Level Up student organization
+- Gaining expertise in **data analytics, business intelligence, cloud-based solutions, and program management** to bridge technical insights with strategic decision-making
+- Building **end-to-end data pipelines, interactive dashboards, and machine learning models** with Python, SQL, Power BI, and cloud platforms to support data-driven business solutions
 
 
-**Graduating Dec 2025 | Open to Full-Time Roles in Data Analytics, Data Engineering, or Machine Learning**
+**Graduating Dec 2025 | Open to Full-Time Roles in Data Analytics, Data Engineering, Program Management, and Machine Learning**
+
+---
+
+## 🌟 Highlights:
+
+- **Texas State Graduate Merit Fellowship & Competitive Scholarship (2024 - 2025)** — awarded for academic excellence and leadership potential
+- **4.0 GPA** — consistent record of academic distinction in the MS in Data Analytics & Information Systems program
+- **Recognized for Excellence in E-Governance at the Chief Minister’s Student Hackathon (2018)** — acknowledged for a GIS project with social impact
+- **Vice President of Technology and Innovation**, Level Up Professional Student Organization — led student initiatives in technology and innovation
+- **TXST Data & AI Day Poster Presentation (2025)** — presented research on real-time anomaly detection in network traffic using ML
+- **Avocado Retailing Analysis Project Lead** — conducted a U.S. retail market study and delivered data-driven insights on pricing strategy and supply chain efficiency
+- **IEEE International Conference (ICSCAN, 2019)** — published paper on real-time monitoring for smart city initiatives
 
 ---
 
@@ -126,6 +139,19 @@ A Design Thinking project focused on strategically positioning McCoy College’s
 
 ---
 
+## 📊 Dashboards & Visualizations:
+
+**Power BI**: Sentiment Analysis of Twitter (X) Data
+
+Power BI dashboard visualizes:
+- Sentiment by time of day (morning, noon, night)
+- Sentiment distribution by age group
+- Sentiment class proportions
+
+[View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
+
+---
+
 ## 🎓 Certifications
 
 - [AWS Certified Cloud Practitioner](certificates/AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf)
@@ -148,16 +174,23 @@ A Design Thinking project focused on strategically positioning McCoy College’s
 
 ---
 
-## 📊 Dashboards & Visualizations:
+📜 **Honors & Awards**
 
-**Power BI**: Sentiment Analysis of Twitter (X) Data
+- **Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025)**  
+Endowed fellowship awarded through a rigorous selection process to graduate students for outstanding academic excellence, strong GPA, and demonstrated potential for leadership. Included tuition support and a non-resident tuition waiver 
 
-Power BI dashboard visualizes:
-- Sentiment by time of day (morning, noon, night)
-- Sentiment distribution by age group
-- Sentiment class proportions
+  ![Dorothy Fellowship Award](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/2025%20Scholorship%20award%20Kiuthika.pdf)
 
-[View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
+- **Competitive Graduate Scholarship (Summer 2025)**  
+Highly competitive scholarship recognizing graduate students for scholarly distinction, consistent performance, and commitment to professional growth
+
+- **Graduate Merit Fellowship (2024–2025)**  
+Prestigious merit-based fellowship awarded to high-achieving graduate students in recognition of exceptional academic performance and future potential. Provided tuition support and a non-resident tuition waiver for the academic year, highlighting my dedication to academic excellence and advancement in analytics
+
+  ![Graduate Merit Fellowship Award](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/2024%20Scholorship%20Award.pdf)
+
+- **Chief Minister’s Award for Excellence in E-Governance for Students (2018)**  
+Received recognition at CII Connect 2018 with the Chief Minister’s Award for Excellence in E-Governance for Students. Honored for innovation and social impact in applying technology to improve public safety and governance
 
 ---
 
@@ -193,41 +226,11 @@ Power BI dashboard visualizes:
 
 ---
 
-📜 **Honors & Awards**
-
-- **Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025)**  
-Endowed fellowship awarded through a rigorous selection process to graduate students for outstanding academic excellence, strong GPA, and demonstrated potential for leadership. Included tuition support and a non-resident tuition waiver 
-
-  ![Dorothy Fellowship Award Letter](assets/dorothy_fellowship.png)
-
-- **Competitive Graduate Scholarship (Summer 2025)**  
-Highly competitive scholarship recognizing graduate students for scholarly distinction, consistent performance, and commitment to professional growth
-
-- **Graduate Merit Fellowship (2024–2025)**  
-Prestigious merit-based fellowship awarded to high-achieving graduate students in recognition of exceptional academic performance and future potential. Provided tuition support and a non-resident tuition waiver for the academic year, highlighting my dedication to academic excellence and advancement in analytics
-
-  ![Graduate Merit Fellowship Award Letter](assets/graduate_merit.png)
-
-- **Chief Minister’s Award for Excellence in E-Governance for Students (2018)**  
-Received recognition at CII Connect 2018 with the Chief Minister’s Award for Excellence in E-Governance for Students. Honored for innovation and social impact in applying technology to improve public safety and governance
-
----
-
-## 🌟 Highlights:
-
-- **Vice President of Technology and Innovation**, Level Up Professional Student Organization — led student initiatives in technology and innovation
-- **Texas State Graduate Merit Fellowship & Competitive Scholarship (2024–2025)** — awarded for academic excellence and leadership potential
-- **4.0 GPA** — consistent record of academic distinction in the MS in Data Analytics & Information Systems program
-- **Recognized for Excellence in E-Governance at the Chief Minister’s Student Hackathon (2018)** — acknowledged for a GIS project with social impact
-
----
-
 ## 🤝 Let’s Connect!
 
 - [LinkedIn](https://www.linkedin.com/in/kiruthikaramadoss/)
 - [GitHub](https://github.com/KiruthikaRamadoss)  
 - [Email](mailto:k_r549@txstate.edu)
-
 
 ---
 
