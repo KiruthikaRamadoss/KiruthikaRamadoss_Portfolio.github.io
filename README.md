@@ -123,6 +123,7 @@ A classification model designed to evaluate creditworthiness and predict home lo
 - Presented insights via Power BI and model evaluation metrics.
 - **Technologies Used:** Python, scikit-learn, pandas, Power BI, Jupyter Notebook
 
+
 ###  6. Competitive Analysis & Market Positioning for X + Applied AI Program
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Competitive-Analysis-Market-Positioning-for-X-Applied-AI-program)
