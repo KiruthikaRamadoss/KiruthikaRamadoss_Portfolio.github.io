@@ -2,7 +2,7 @@
 
 **Welcome to my GitHub profile!**
 
-- Data enthusiast with over **4+ years of experience** delivering business solutions through data analysis, program management, and cloud technologies
+- I'm a data enthusiast with over **4+ years of experience** delivering business solutions through data analysis, program management, and cloud technologies
 - Passionate about turning data into meaningful insights and building scalable, real-world solutions
 - With a strong foundation in Python, SQL, and Power BI, I enjoy applying analytics, automation, and machine learning to solve complex problems and drive decision-making
 
