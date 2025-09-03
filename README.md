@@ -64,6 +64,7 @@ A machine learning and text mining project that classifies tweet sentiments (pos
 - **Technologies Used:** Python, scikit-learn, pandas, TF-IDF, Power BI, Jupyter Notebook
 
 
+
 ###  2. Real-Time Network Anomaly Detection  
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection)
@@ -79,6 +80,7 @@ An end-to-end ML pipeline to detect anomalies in synthetic network traffic, simu
 - **Technologies Used:** Python, scikit-learn, pandas, matplotlib, SMOTE, PCA, Jupyter Notebook
 
 
+
 ### 3. Diabetes Prediction Using Health Indicators  
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Diabetes-Prediction-ML)
@@ -91,6 +93,7 @@ A predictive analytics project that classifies diabetes risk based on clinical h
 - Handled data preprocessing, class imbalance (SMOTE), and feature engineering.
 - Visualized key insights to support preventive healthcare analytics.
 - **Technologies Used:** Python, scikit-learn, pandas, matplotlib, seaborn, SMOTE, Jupyter Notebook
+
 
 
 ### 4. Avocado Retailing Analysis
@@ -109,6 +112,7 @@ A data analytics project exploring retail trends in the U.S. avocado market usin
 - **Technologies Used:** Python, pandas, matplotlib, seaborn, statsmodels, scikit-learn, Facebook Prophet, Jupyter Notebook
 
 
+
 ###  5. Home Loan Credit Scoring Model  
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Home-Loan-Approval-Prediction/tree/main)
@@ -124,6 +128,7 @@ A classification model designed to evaluate creditworthiness and predict home lo
 - **Technologies Used:** Python, scikit-learn, pandas, Power BI, Jupyter Notebook
 
 
+
 ###  6. Competitive Analysis & Market Positioning for X + Applied AI Program
 
 🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Competitive-Analysis-Market-Positioning-for-X-Applied-AI-program)
@@ -137,6 +142,7 @@ A Design Thinking project focused on strategically positioning McCoy College’s
 - Delivered actionable recommendations aligned with learner needs and market trends
 - Proposed hybrid delivery models, industry mentorship, and flexible admissions pathways
 - **Technologies Used:** Design Thinking, Persona Mapping, Journey Mapping, SCAMPER, Miro
+
 
 ---
 
