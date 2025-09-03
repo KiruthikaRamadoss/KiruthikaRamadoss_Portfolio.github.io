@@ -41,7 +41,7 @@
 - **Recognized for Excellence in E-Governance at the Chief Minister’s Student Hackathon (2018)** – acknowledged for a project with social impact
 - **Vice President of Technology and Innovation** – Led student-driven initiatives in technology adoption and innovation to improve organizational efficiency
 - **TXST Data & AI Day Poster Presentation (2025)** – presented research on real-time anomaly detection in network traffic using ML
-- **Avocado Retailing Analysis Project Lead** – Delivered insights on pricing strategy and supply chain efficiency
+- **Project Lead** – conducted a U.S. retail market study and delivered insights on pricing strategy and supply chain efficiency
 - **IEEE International Conference (ICSCAN, 2019)** – published paper on real-time monitoring for smart city initiatives
 
 ---
