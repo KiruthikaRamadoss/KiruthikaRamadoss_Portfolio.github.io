@@ -2,7 +2,7 @@
 
 **Welcome to my GitHub profile!**
 
-- I’m a data and machine learning enthusiast currently pursuing my MS in Data Analytics & Information Systems at Texas State University
+- I’m a data enthusiast with over **4+ years of experience** delivering business solutions through data analysis, program management, and cloud technologies
 - I'm passionate about turning data into meaningful insights and building scalable, real-world solutions
 - With a strong foundation in Python, SQL, and Power BI, I enjoy applying analytics, automation, and machine learning to solve complex problems and drive decision-making
 
@@ -27,7 +27,7 @@
 - Graduate student in **Data Analytics & Information Systems** at Texas State University (Current GPA: 4.0)
 - Serving as **Vice President of Technology & Innovation** at Level Up student organization
 - Gaining expertise in **data analytics, business intelligence, cloud-based solutions, and program management** to bridge technical insights with strategic decision-making
-- Building **end-to-end data pipelines, interactive dashboards, and machine learning models** with Python, SQL, Power BI, and cloud platforms to support data-driven business solutions
+- Designing and implementing **end-to-end data pipelines, interactive dashboards, and machine learning models** with Python, SQL, Power BI, and cloud platforms to support data-driven business solutions
 
 
 **Graduating Dec 2025 | Open to Full-Time Roles in Data Analytics, Data Engineering, Program Management, and Machine Learning**
