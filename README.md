@@ -186,7 +186,7 @@ Power BI dashboard visualizes:
   Recognized for being in the **top 10%** of students at Texas State University
   
   [AlphaChiAward](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Alpha%20Chi%20Award.png)  
-  ![About Alpha Chi](https://alphachihonor.org/)
+  📃[About Alpha Chi](https://alphachihonor.org/)
   
 - **Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025)**  
 Endowed fellowship awarded through a rigorous selection process to graduate students for outstanding academic excellence, strong GPA, and demonstrated potential for leadership. Included tuition support and a non-resident tuition waiver
