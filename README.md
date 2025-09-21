@@ -4,7 +4,7 @@
 
 - I'm a data enthusiast with **4+ years of experience** delivering business solutions through data analysis, program management, and cloud technologies
 - I’m passionate about turning data into actionable insights and building scalable, real-world solutions
-- With a strong foundation in Python, SQL, and Power BI, I enjoy applying analytics, automation, and machine learning to solve complex problems and drive decision-making
+- With a strong foundation in Python, SQL, Power BI and Program Management, I enjoy applying analytics, automation, and machine learning to solve complex problems and drive decision-making
 
 ---
 
