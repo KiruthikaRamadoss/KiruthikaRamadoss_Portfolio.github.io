@@ -186,7 +186,8 @@ Power BI dashboard visualizes:
   Recognized for being in the **top 10%** of students at Texas State University
   
   [About Alpha Chi](https://alphachihonor.org/)
-  [Alpha Chi Award](https://raw.githubusercontent.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/main/certificates/Alpha%20Chi%20Award.png)
+
+  [AlphaChiAward]https://raw.githubusercontent.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/main/certificates/Alpha%20Chi%20Award.png)    
   
 - **Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025)**  
 Endowed fellowship awarded through a rigorous selection process to graduate students for outstanding academic excellence, strong GPA, and demonstrated potential for leadership. Included tuition support and a non-resident tuition waiver
@@ -208,7 +209,7 @@ Received recognition at CII Connect 2018 with the Chief Minister’s Award for E
 
 ## 📃 Publications:
 
-**Detecting and Analyzing Air Quality to Reduce Urban Air Pollution**  
+**Data-Driven Analysis for Reduction of Air Pollution in Urban Areas**  
 
 *IEEE Xplore – 2019 International Conference on Systems, Computing, and Networking (ICSCAN)*  
 - Developed a scalable, real-time air quality monitoring system.
