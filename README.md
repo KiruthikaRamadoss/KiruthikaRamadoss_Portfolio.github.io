@@ -26,6 +26,7 @@
 
 - Graduate student in **Data Analytics & Information Systems** at Texas State University (Current GPA: 4.0)
 - Serving as **Vice President of Technology & Innovation** at Level Up student organization
+- **Alpha Chi National College Honor Society** member
 - Gaining expertise in **data analytics, business intelligence, cloud-based solutions, and program management** to bridge technical insights with strategic decision-making
 - Designing and implementing **end-to-end data pipelines, interactive dashboards, and machine learning models** with Python, SQL, Power BI, and cloud platforms to support data-driven business solutions
 
@@ -39,6 +40,7 @@
 - **Texas State Graduate Merit Fellowship & Competitive Scholarship (2024 - 2025)** – awarded for academic excellence
 - **4.0 GPA** – consistent record of academic distinction in the MS in Data Analytics & Information Systems program
 - **Chief Minister’s Award for Excellence in E-Governance Student Hackathon (2018)** – Recognized for a project with social impact
+- **Alpha Chi National College Honor Society** — Recognized among the **top 10%** of students at Texas State University
 - **Vice President of Technology and Innovation** – Led student-driven initiatives in technology adoption and innovation to improve organizational efficiency
 - **TXST Data & AI Day Poster Presentation (2025)** – presented research on real-time anomaly detection in network traffic using ML
 - **Project Lead** – conducted a U.S. retail market study and delivered insights on pricing strategy and supply chain efficiency
