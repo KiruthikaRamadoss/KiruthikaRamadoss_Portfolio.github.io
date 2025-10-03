@@ -166,9 +166,9 @@ Power BI dashboard visualizes:
 - Yearly trends, with the 2008–2012 financial crisis as the peak period
 - Monthly spikes in failures, especially July, October, and March
 
-[View Dashboard](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf)
-[View Live Video](https://drive.google.com/file/d/1ZGsYJp4dLr0HFkkZ32i-nmx6c3rAL1_p/view?usp=drive_link)
-[View Summary](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/US_Bank_Failures_Summary.pdf)
+- [View Dashboard](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf)
+- [View Live Video](https://drive.google.com/file/d/1ZGsYJp4dLr0HFkkZ32i-nmx6c3rAL1_p/view?usp=drive_link)
+- [View Summary](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/US_Bank_Failures_Summary.pdf)
 
 ---
 
@@ -199,8 +199,8 @@ Power BI dashboard visualizes:
 - **Alpha Chi National College Honor Society — Texas Iota Chapter**  
   Recognized for being in the **top 10%** of students at Texas State University
   
-  [AlphaChiAward](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Alpha%20Chi%20Award.png)  
-  📃[About Alpha Chi](https://alphachihonor.org/)
+  - [AlphaChiAward](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Alpha%20Chi%20Award.png)
+  - 📃[About Alpha Chi](https://alphachihonor.org/)
   
 - **Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025)**  
 Endowed fellowship awarded through a rigorous selection process to graduate students for outstanding academic excellence, strong GPA, and demonstrated potential for leadership. Included tuition support and a non-resident tuition waiver
