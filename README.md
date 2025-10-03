@@ -156,7 +156,7 @@ Power BI dashboard visualizes:
 - Sentiment distribution by age group
 - Sentiment class proportions
 
-- [View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
+ - [View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
 
 
 **Power BI**: U.S. Bank Failures: A Data-Driven Summary
@@ -166,9 +166,9 @@ Power BI dashboard visualizes:
 - Yearly trends, with the 2008–2012 financial crisis as the peak period
 - Monthly spikes in failures, especially July, October, and March
 
-- [View Dashboard](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf)
-- [View Live Video](https://drive.google.com/file/d/1ZGsYJp4dLr0HFkkZ32i-nmx6c3rAL1_p/view?usp=drive_link)
-- [View Summary](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/US_Bank_Failures_Summary.pdf)
+ - [View Dashboard](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf)
+ - [View Live Video](https://drive.google.com/file/d/1ZGsYJp4dLr0HFkkZ32i-nmx6c3rAL1_p/view?usp=drive_link)
+ - [View Summary](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/US_Bank_Failures_Summary.pdf)
 
 ---
 
@@ -205,7 +205,7 @@ Power BI dashboard visualizes:
 - **The Honor Society of Phi Kappa Phi — Texas State University Chapter**
 Invitation to join one of the oldest and most selective all-discipline honor societies, extended to graduate students in the top 10% of class
 
-  -[Phi Kappa phi Award](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Phi%20Kappa%20Phi.png)
+  - [Phi Kappa phi Award](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Phi%20Kappa%20Phi.png)
   - 📃[About Phi Kappa phi](https://phikappaphi.org/about)
   
 - **Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025)**  
