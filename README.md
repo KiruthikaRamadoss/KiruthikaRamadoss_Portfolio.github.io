@@ -145,6 +145,23 @@ A Design Thinking project focused on strategically positioning McCoy College’s
 - Proposed hybrid delivery models, industry mentorship, and flexible admissions pathways
 - **Technologies Used:** Design Thinking, Persona Mapping, Journey Mapping, SCAMPER, Miro
 
+
+
+###  7. U.S. Bank Failures: A Data-Driven Summary
+
+🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/U.S.-Bank-Failures-A-Data-Driven-Summary/tree/main)
+
+A Power BI dashboard designed to analyze and visualize U.S. bank failures, highlighting geographic hotspots, temporal spikes, and the legacy of the Great Recession.
+
+**Key Contributions:**
+
+- Analyzed 561–563 U.S. bank failures across states, cities, and years
+- Identified Chicago and Atlanta as the hardest-hit cities and Georgia, Florida, Illinois, and California as the top affected states
+- Highlighted the 2008–2012 financial crisis as the peak period, with failure surges in 2009–2010
+- Detected monthly spikes in July (74), October (63), and March (60), reflecting cyclical reporting or economic patterns
+- Built interactive features such as year slicers, animated yearly trends, tooltips, and geographic heat maps for deep exploration
+- **Technologies Used:** Power BI, Data Visualization, Microsoft Excel (data preprocessing)
+
 ---
 
 ## 📊 Dashboards & Visualizations:
