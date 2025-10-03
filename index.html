@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Kiruthika Ramadoss — Portfolio</title>
+  <title>Kiruthika Ramadoss - Portfolio</title>
   <meta name="description" content="Data & Analytics • ML • Cloud • Program Management" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -44,7 +44,6 @@
       border-bottom:1px solid rgba(255,255,255,.05);
     }
     .bar{max-width:var(--max); margin:0 auto; padding:12px 18px; display:flex; align-items:center; gap:14px}
-    /* KR badge (avoid repeating full name in the bar) */
     .brand-logo{
       width:34px; height:34px; display:grid; place-items:center;
       border-radius:50%;
@@ -79,11 +78,11 @@
 
     .hero-title{
       font-size:54px; line-height:1.02; font-weight:800;
-      margin:4px 0 32px;                 /* more space under the name */
+      margin:4px 0 32px;
     }
     .lead{
       color:var(--muted); font-size:18px;
-      margin:0 0 16px;                   /* consistent space under intro lines */
+      margin:0 0 16px;
     }
     .hero .card .lead:last-of-type{ margin-bottom:22px; }
 
@@ -120,9 +119,7 @@
       white-space:nowrap;
     }
     .btn:hover{transform:translateY(-2px); filter:brightness(1.06)}
-    /* Small size (GitHub/LinkedIn/Email & project buttons) */
     .btn.sm{ padding:8px 12px; border-radius:12px; font-weight:700; font-size:14.5px; box-shadow:0 6px 14px rgba(124,140,255,.28) }
-    /* Ghost style (Dashboard/Live Video, etc.) */
     .btn.ghost{ background:transparent; color:#cfd6ea; border:1px solid #3a4a6c; box-shadow:none; }
     .btn.ghost:hover{ background:rgba(124,140,255,.08); border-color:#506294 }
     .btn-row{display:flex; gap:10px; flex-wrap:wrap; justify-content:center}
@@ -132,9 +129,9 @@
     h2{margin:0 0 20px; font-size:26px}
     h3{margin:0 0 10px; font-size:22px}
     .meta{color:var(--muted); margin:8px 0 14px}
-    #work .card > h2{ margin-bottom:22px; }  /* extra space under Projects heading */
+    #work .card > h2{ margin-bottom:22px; }
 
-    /* Softer link color (certs/awards/publications) */
+    /* Links (calmer color) */
     a.link{
       color:#b3bdd6;
       text-decoration:underline;
@@ -146,7 +143,7 @@
     }
     a.link:visited{ color:#a3acc5; }
 
-    /* Projects grid: 2 columns on desktop */
+    /* Projects grid */
     .grid2{
       display:grid;
       grid-template-columns:repeat(2, minmax(0,1fr));
@@ -185,7 +182,15 @@
     }
     section.toolkit ul.clean li::before{
       content:""; position:absolute; left:2px; top:.7em; width:6px; height:6px; border-radius:50%;
-      background:#7282a1; opacity:.85;
+      background:#fff;           /* WHITE pseudo-bullets */
+      opacity:1;
+    }
+
+    /* === GLOBAL WHITE BULLETS === */
+    ul li::marker,
+    ol li::marker{
+      color:#fff;               /* make all list markers white */
+      opacity:1;
     }
 
     /* Footer */
@@ -211,7 +216,6 @@
   <main class="wrap">
     <!-- HERO -->
     <section class="hero section" id="about">
-      <!-- left -->
       <div class="card">
         <h1 class="hero-title">Kiruthika Ramadoss</h1>
         <p class="lead">
@@ -223,7 +227,6 @@
           advanced analytics and program management
         </p>
 
-        <!-- chips -->
         <div class="chips" aria-label="Key skills" role="list">
           <span class="chip">SQL</span>
           <span class="chip">Python</span>
@@ -234,7 +237,6 @@
         </div>
       </div>
 
-      <!-- right -->
       <div class="photo">
         <div class="stack">
           <div class="frame" aria-hidden="true">
@@ -255,7 +257,6 @@
         <h2>Projects & Dashboards</h2>
 
         <div class="grid2">
-          <!-- Bank Failures -->
           <div class="card">
             <h3>U.S. Bank Failures: A Data-Driven Summary</h3>
             <p class="meta">Power BI dashboard analyzing U.S. bank failures by geography and time; highlights the Great Recession peak.</p>
@@ -267,7 +268,6 @@
             </div>
           </div>
 
-          <!-- Twitter Sentiment -->
           <div class="card">
             <h3>Twitter/X Sentiment Analysis</h3>
             <p class="meta">TF-IDF + LR/NB/SVM; ~45k tweets; Power BI for sentiment by age/time.</p>
@@ -278,7 +278,6 @@
             </div>
           </div>
 
-          <!-- Real-time Anomaly -->
           <div class="card">
             <h3>Real-Time Network Anomaly Detection</h3>
             <p class="meta">Isolation Forest &amp; Random Forest with SMOTE; PCA; 83% recall / 63% accuracy.</p>
@@ -288,7 +287,6 @@
             </div>
           </div>
 
-          <!-- Diabetes -->
           <div class="card">
             <h3>Diabetes Prediction Using Health Indicators</h3>
             <p class="meta">LogReg, DT, NN, SVM, KNN; handled preprocessing + SMOTE; up to 96% accuracy.</p>
@@ -298,7 +296,6 @@
             </div>
           </div>
 
-          <!-- Avocado -->
           <div class="card">
             <h3>Avocado Retailing Analysis</h3>
             <p class="meta">EDA + forecasting (ARIMA/Prophet) + prescriptive analytics via LP.</p>
@@ -308,7 +305,6 @@
             </div>
           </div>
 
-          <!-- Home Loan -->
           <div class="card">
             <h3>Home Loan Credit Scoring Model</h3>
             <p class="meta">Feature engineering; LR/DT/RF; 85% accuracy; decision efficiency +98.5%.</p>
@@ -318,7 +314,6 @@
             </div>
           </div>
 
-          <!-- Design Thinking -->
           <div class="card">
             <h3>Competitive Analysis &amp; Market Positioning — X + Applied AI</h3>
             <p class="meta">Design Thinking: interviews, personas, competitive analysis; hybrid model &amp; mentorship recommendations.</p>
@@ -343,7 +338,6 @@
         </div>
       </div>
     </section>
-
 
     <!-- CERTIFICATIONS -->
     <section id="certs" class="section">
@@ -376,22 +370,22 @@
       <div class="card alt">
         <h2>Awards & Honors</h2>
         <ul class="slim">
-          <li>Alpha Chi National College Honor Society — Texas Iota Chapter — Top 10% recognition —
+          <li>Alpha Chi National College Honor Society - Texas Iota Chapter - Top 10% recognition -
             <a class="link" href="certificates/Alpha%20Chi%20Award.png" target="_blank">AlphaChi Award</a> ·
             <a class="link" href="https://alphachihonor.org/" target="_blank">About Alpha Chi</a>
           </li>
-          <li>The Honor Society of Phi Kappa Phi — Texas State University Chapter — Invitation to top 10% graduate students —
+          <li>The Honor Society of Phi Kappa Phi - Texas State University Chapter - Invitation to top 10% graduate students -
             <a class="link" href="certificates/Phi%20Kappa%20Phi.png" target="_blank">Phi Kappa Phi Award</a> ·
             <a class="link" href="https://phikappaphi.org/about" target="_blank">About Phi Kappa Phi</a>
           </li>
-          <li>Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025) — tuition support + non-resident waiver —
+          <li>Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025) - tuition support + non-resident waiver -
             <a class="link" href="certificates/2025%20Scholorship%20award%20Kiuthika.pdf" target="_blank">Award Letter</a>
           </li>
           <li>Competitive Graduate Scholarship (Summer 2025)</li>
-          <li>Graduate Merit Fellowship (2024–2025) —
+          <li>Graduate Merit Fellowship (2024–2025) -
             <a class="link" href="certificates/2024%20Scholorship%20Award.pdf" target="_blank">Award Letter</a>
           </li>
-          <li>Chief Minister’s Award for Excellence in E-Governance for Students (2018) — CII Connect 2018</li>
+          <li>Chief Minister’s Award for Excellence in E-Governance for Students (2018) - CII Connect 2018</li>
         </ul>
       </div>
     </section>
@@ -453,4 +447,4 @@
   <footer><div class="foot">© <span id="y"></span> Kiruthika Ramadoss</div></footer>
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
-</html> 
+</html>
