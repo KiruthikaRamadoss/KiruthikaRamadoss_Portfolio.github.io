@@ -199,8 +199,14 @@ Power BI dashboard visualizes:
 - **Alpha Chi National College Honor Society — Texas Iota Chapter**  
   Recognized for being in the **top 10%** of students at Texas State University
   
-  - [AlphaChiAward](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Alpha%20Chi%20Award.png)
+  - [Alpha Chi Award](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Alpha%20Chi%20Award.png)
   - 📃[About Alpha Chi](https://alphachihonor.org/)
+
+- **The Honor Society of Phi Kappa Phi — Texas State University Chapter**
+Invitation to join one of the oldest and most selective all-discipline honor societies, extended to graduate students in the top 10% of class
+
+  -[Phi Kappa phi Award](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Phi%20Kappa%20Phi.png)
+  - 📃[About Phi Kappa phi](https://phikappaphi.org/about)
   
 - **Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025)**  
 Endowed fellowship awarded through a rigorous selection process to graduate students for outstanding academic excellence, strong GPA, and demonstrated potential for leadership. Included tuition support and a non-resident tuition waiver
