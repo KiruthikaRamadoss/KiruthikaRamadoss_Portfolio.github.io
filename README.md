@@ -156,7 +156,7 @@ Power BI dashboard visualizes:
 - Sentiment distribution by age group
 - Sentiment class proportions
 
- - [View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
+  - [View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
 
 
 **Power BI**: U.S. Bank Failures: A Data-Driven Summary
@@ -166,9 +166,9 @@ Power BI dashboard visualizes:
 - Yearly trends, with the 2008–2012 financial crisis as the peak period
 - Monthly spikes in failures, especially July, October, and March
 
- - [View Dashboard](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf)
- - [View Live Video](https://drive.google.com/file/d/1ZGsYJp4dLr0HFkkZ32i-nmx6c3rAL1_p/view?usp=drive_link)
- - [View Summary](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/US_Bank_Failures_Summary.pdf)
+  - [View Dashboard](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf)
+  - [View Live Video](https://drive.google.com/file/d/1ZGsYJp4dLr0HFkkZ32i-nmx6c3rAL1_p/view?usp=drive_link)
+  - [View Summary](https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/US_Bank_Failures_Summary.pdf)
 
 ---
 
