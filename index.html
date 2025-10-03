@@ -152,12 +152,11 @@
         <h1 class="hero-title">Kiruthika Ramadoss</h1>
         <p class="lead">
           I am a data and analytics professional with <strong>4+ years</strong> of experience in
-          data analytics, data engineering, program management, and cloud solutions.
+          data analytics, data engineering, program management and cloud solutions
         </p>
         <p class="lead" style="margin-top:-2px">
-          I specialize in driving data-informed strategies, optimizing processes, and enabling business growth through
-          advanced analytics and program management. I work end-to-end with <strong>Python</strong>, <strong>SQL</strong>,
-          <strong>Power BI</strong>, and <strong>machine learning</strong>.
+          I specialize in driving data-informed strategies, optimizing processes and enabling business growth through
+          advanced analytics and program management
         </p>
 
         <!-- chips -->
@@ -196,12 +195,7 @@
           <div class="card">
             <h3>U.S. Bank Failures: A Data-Driven Summary</h3>
             <p class="meta">Power BI dashboard analyzing U.S. bank failures by geography and time; highlights the Great Recession peak.</p>
-            <ul class="slim">
-              <li>Analyzed 561–563 failures across states, cities, and years.</li>
-              <li>Chicago &amp; Atlanta hardest hit; top states: GA, FL, IL, CA.</li>
-              <li>Peak 2008–2012; monthly spikes in July (74), Oct (63), Mar (60).</li>
-            </ul>
-            <p class="meta"><strong>Tech:</strong> Power BI, Data Visualization, Microsoft Excel (preprocessing)</p>
+            <p class="meta"><strong>Tech:</strong> Power BI, Data Visualization, Microsoft Excel</p>
             <div class="btn-group">
               <a class="btn" href="https://github.com/KiruthikaRamadoss/U.S.-Bank-Failures-A-Data-Driven-Summary/tree/main" target="_blank" rel="noopener">Repository</a>
               <a class="btn ghost" href="https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf" target="_blank" rel="noopener">Dashboard</a>
@@ -322,6 +316,10 @@
             <a class="link" href="certificates/Alpha%20Chi%20Award.png" target="_blank">AlphaChi Award</a> ·
             <a class="link" href="https://alphachihonor.org/" target="_blank">About Alpha Chi</a>
           </li>
+          <li>The Honor Society of Phi Kappa Phi — Texas State University Chapter — Invitation to top 10% graduate students —
+            <a class="link" href="certificates/Phi%20Kappa%20Phi.png" target="_blank">Phi Kappa Phi Award</a> ·
+            <a class="link" href="https://phikappaphi.org/about" target="_blank">About Phi Kappa Phi</a>
+          </li>
           <li>Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025) — tuition support + non-resident waiver —
             <a class="link" href="certificates/2025%20Scholorship%20award%20Kiuthika.pdf" target="_blank">Award Letter</a>
           </li>
@@ -330,63 +328,75 @@
             <a class="link" href="certificates/2024%20Scholorship%20Award.pdf" target="_blank">Award Letter</a>
           </li>
           <li>Chief Minister’s Award for Excellence in E-Governance for Students (2018) — CII Connect 2018</li>
-          <li>The Honor Society of Phi Kappa Phi — Texas State University Chapter — Invitation to top 10% graduate students —
-            <a class="link" href="certificates/Phi%20Kappa%20Phi.png" target="_blank">Phi Kappa Phi Award</a> ·
-            <a class="link" href="https://phikappaphi.org/about" target="_blank">About Phi Kappa Phi</a>
-          </li>
         </ul>
       </div>
     </section>
 
-    <!-- TOOLKIT -->
-    <section id="toolkit" class="section">
-      <div class="card">
-        <h2>Toolkit</h2>
-        <div class="grid2">
-          <div class="card alt">
-            <h3>Programming & Visualization</h3>
-            <ul class="slim">
-              <li>Python, SQL, Power BI, Tableau, Advanced Excel</li>
-            </ul>
-            <h3 style="margin-top:14px">Data Engineering</h3>
-            <ul class="slim">
-              <li>Data Analysis, Data Wrangling, Data Mining</li>
-              <li>ETL, Data Pipelines, Databricks, Statistical Methods</li>
-            </ul>
-            <h3 style="margin-top:14px">Machine Learning & AI</h3>
-            <ul class="slim">
-              <li>NLP, NLU/NLG, Generative AI, Prompt Engineering</li>
-            </ul>
-            <h3 style="margin-top:14px">Cloud & Big Data</h3>
-            <ul class="slim">
-              <li>AWS, Google Cloud Platform (GCP), Azure Synapse</li>
-              <li>Snowflake, PySpark, Kafka, Airflow</li>
-            </ul>
-          </div>
+ /* Heading dot + tidy bullets for Toolkit */
+.hb{
+  position:relative;
+  padding-left:22px;
+  margin:18px 0 6px;
+}
+.hb::before{
+  content:"";
+  position:absolute;
+  left:0; top:.6em;
+  width:10px; height:10px; border-radius:50%;
+  background:linear-gradient(135deg, var(--brand), var(--brand-2));
+  box-shadow:0 0 0 4px rgba(124,140,255,.12);
+}
+.tool-bullets{ margin:0 0 8px 20px; }
+.tool-bullets li{ margin:6px 0; color:var(--muted); }
+<section id="toolkit" class="section">
+  <div class="card">
+    <h2>Toolkit</h2>
+    <div class="grid2">
+      <!-- Column 1 -->
+      <div class="card alt">
+        <h3 class="hb">Programming &amp; Visualization</h3>
+        <ul class="tool-bullets">
+          <li>Python, SQL, Power BI, Tableau, Advanced Excel</li>
+        </ul>
 
-          <div class="card alt">
-            <h3>Development Environments</h3>
-            <ul class="slim">
-              <li>Jupyter Notebook, Google Colab, PyCharm, Visual Studio, Anaconda</li>
-            </ul>
-            <h3 style="margin-top:14px">Project & Collaboration</h3>
-            <ul class="slim">
-              <li>Git, Jira, Agile Methodologies, Scrum</li>
-            </ul>
-            <h3 style="margin-top:14px">Soft Skills</h3>
-            <ul class="slim">
-              <li>Critical Thinking, Problem-Solving</li>
-              <li>Leadership &amp; Stakeholder Communication</li>
-              <li>Cross-Functional Collaboration</li>
-              <li>Organizational Skills, Attention to Detail</li>
-            </ul>
-          </div>
-        </div>
+        <h3 class="hb">Data Engineering</h3>
+        <ul class="tool-bullets">
+          <li>Data Analysis, Data Wrangling, Data Mining</li>
+          <li>ETL, Data Pipelines, Databricks, Statistical Methods</li>
+        </ul>
+
+        <h3 class="hb">Machine Learning &amp; AI</h3>
+        <ul class="tool-bullets">
+          <li>NLP, NLU/NLG, Generative AI, Prompt Engineering</li>
+        </ul>
+
+        <h3 class="hb">Cloud &amp; Big Data</h3>
+        <ul class="tool-bullets">
+          <li>AWS, Google Cloud Platform (GCP), Azure Synapse</li>
+          <li>Snowflake, PySpark, Kafka, Airflow</li>
+        </ul>
       </div>
-    </section>
-  </main>
 
-  <footer><div class="foot">© <span id="y"></span> Kiruthika Ramadoss</div></footer>
-  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
-</body>
-</html>
+      <!-- Column 2 -->
+      <div class="card alt">
+        <h3 class="hb">Development Environments</h3>
+        <ul class="tool-bullets">
+          <li>Jupyter Notebook, Google Colab, PyCharm, Visual Studio, Anaconda</li>
+        </ul>
+
+        <h3 class="hb">Project &amp; Collaboration</h3>
+        <ul class="tool-bullets">
+          <li>Git, Jira, Agile Methodologies, Scrum</li>
+        </ul>
+
+        <h3 class="hb">Soft Skills</h3>
+        <ul class="tool-bullets">
+          <li>Critical Thinking, Problem-Solving</li>
+          <li>Leadership &amp; Stakeholder Communication</li>
+          <li>Cross-Functional Collaboration</li>
+          <li>Organizational Skills, Attention to Detail</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
