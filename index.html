@@ -4,375 +4,300 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Kiruthika Ramadoss — Portfolio</title>
-  <meta name="description" content="Data Analytics • Machine Learning • Cloud" />
+  <meta name="description" content="Data Analytics • Machine Learning • Program Management • Cloud" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 
-  <!-- Social cards (nice when you share the link) -->
-  <meta property="og:title" content="Kiruthika Ramadoss — Portfolio">
-  <meta property="og:description" content="Data Analytics • Machine Learning • Cloud">
-  <meta property="og:image" content="https://raw.githubusercontent.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/main/certificates/Github.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-
   <style>
-    /* ===== Dark Theme ===== */
     :root{
-      --bg:#0b1021;          /* page background */
-      --bg-soft:#0f1633;     /* gradient partner */
-      --surface:#111733;     /* card background */
-      --line:rgba(255,255,255,.08);
-      --text:#eaf0ff;        /* main text */
-      --muted:#a8b3ff;       /* secondary text */
-      --brand:#7c9dff;       /* brand accent */
-      --brand-weak:#0e1c4c;  /* subtle hover bg */
-      --chip:#0b5cff1a;
-      --shadow:0 14px 28px rgba(0,0,0,.35);
-      --radius:16px; --radius-sm:12px; --max:1060px;
+      --bg:#0c1222;          /* page */
+      --panel:#111833;       /* card */
+      --ink:#e7ecff;         /* primary text */
+      --muted:#a8b3cf;       /* secondary text */
+      --line:#1e2644;        /* borders */
+      --brand:#5b7cff;       /* accent */
+      --brand-weak:#2a375f;  /* hover bg */
+      --chip-bg:#1a2142;     /* chip bg */
+      --chip-br:#2a376a;     /* chip border */
+      --shadow:0 18px 40px rgba(3,8,25,.25);
+      --radius:18px; --radius-sm:14px; --max:1120px;
     }
 
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
     body{
-      margin:0;
-      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
-      color:var(--text);
-      background:linear-gradient(180deg,var(--bg) 0%,var(--bg-soft) 100%) fixed;
+      margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--ink); background:radial-gradient(1200px 800px at 20% -20%, #1a2448 0%, transparent 60%), var(--bg);
+      -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
     }
 
-    /* ===== Header (trimmed nav) ===== */
-    header{
-      position:sticky; top:0; z-index:50;
-      background:rgba(11,16,33,.75);
-      border-bottom:1px solid var(--line);
-      backdrop-filter:saturate(140%) blur(8px);
-    }
-    .bar{max-width:var(--max); margin:0 auto; padding:14px 20px; display:flex; align-items:center; gap:20px}
+    /* Header */
+    header{position:sticky; top:0; z-index:50; background:rgba(10,14,30,.7); backdrop-filter:saturate(140%) blur(8px); border-bottom:1px solid var(--line)}
+    .bar{max-width:var(--max); margin:0 auto; padding:16px 20px; display:flex; align-items:center; gap:18px}
     .brand{font-family:Playfair Display,serif; font-weight:600; font-size:22px; letter-spacing:.2px}
-    .primary-nav{margin-left:auto; display:flex; gap:16px; align-items:center}
-    .primary-nav a{
-      color:#d7deff; text-decoration:none; padding:8px 12px; border-radius:10px;
-    }
-    .primary-nav a:hover{background:var(--brand-weak); color:#b7c7ff}
+    nav{margin-left:auto; display:flex; gap:28px; flex-wrap:wrap}
+    nav a{color:#cdd6ff; text-decoration:none; padding:8px 10px; border-radius:10px}
+    nav a:hover{background:var(--brand-weak); color:#fff}
 
-    /* ===== Layout & cards ===== */
+    /* Layout */
     .wrap{max-width:var(--max); margin:0 auto; padding:28px 20px}
-    .hero{display:grid; grid-template-columns:1.15fr .85fr; gap:26px; align-items:center}
-    @media (max-width:900px){ .hero{grid-template-columns:1fr} .primary-nav{gap:10px} }
+    .hero{display:grid; grid-template-columns:1.1fr .9fr; gap:28px; align-items:stretch}
+    @media (max-width:900px){ .hero{grid-template-columns:1fr} }
+
     .card{
-      background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
-      box-shadow:var(--shadow); padding:28px;
+      background:linear-gradient(180deg, #0f1732 0%, #0d142d 100%);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:26px;
     }
-    h1,h2,h3{margin:0 0 10px}
-    h1{font-size:clamp(32px,5.2vw,48px); line-height:1.15; letter-spacing:-.02em; font-weight:800}
-    h2{font-size:24px}
-    p{color:#d7deff; margin:10px 0}
 
-    .lead{font-size:18px; color:#e3e7ff}
-    .meta{margin-top:6px; color:#b7c7ff; font-weight:600}
+    /* Hero copy */
+    .hero-title{
+      font-size: clamp(32px, 5vw, 56px);
+      line-height: 1.04;
+      margin: 0 0 8px;
+      font-weight: 800;
+      letter-spacing: .2px;
+      background: linear-gradient(90deg, #eff4ff, #c7d2fe);
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+    .lead{margin:10px 0 14px; font-size: clamp(16px, 2.1vw, 19px); color:var(--muted)}
 
-    /* ===== Photo ===== */
-    .photo{width:220px; height:220px; border-radius:50%; overflow:hidden; margin:0 auto; position:relative}
-    .photo img{width:100%; height:100%; object-fit:cover; display:block; border-radius:50%; box-shadow:0 8px 22px rgba(0,0,0,.45)}
-    .photo::after{content:""; position:absolute; inset:-6px; border-radius:50%; border:2px solid #2a3c84; pointer-events:none}
-
-    /* ===== Chips & buttons ===== */
-    .pills{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px}
+    .pills{display:flex; flex-wrap:wrap; gap:10px; padding:0; margin:8px 0 16px; list-style:none}
     .chip{
-      padding:6px 11px; border-radius:999px; border:1px solid var(--line);
-      background:#0f1b44; color:#cfe0ff; font-weight:700; font-size:.9rem;
+      display:inline-block; padding:10px 14px; border-radius:999px;
+      background:var(--chip-bg); border:1px solid var(--chip-br);
+      color:#c9d5ff; font-weight:600; font-size:14px; letter-spacing:.2px;
     }
-    .actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px}
-    .btn{
-      height:42px; padding:0 16px; display:inline-flex; align-items:center; justify-content:center;
-      border-radius:12px; font-weight:800; text-decoration:none; letter-spacing:.2px;
-      background:var(--brand); color:#0a0f25; border:1px solid #6f90ff;
-    }
-    .btn.ghost{background:#0f1635; color:#bdd0ff; border:1px solid #2c3f8a}
-    .btn:hover{filter:brightness(1.06)}
-    .btn:focus-visible{outline:3px solid #99b2ff; outline-offset:2px}
 
-    /* ===== Grids & lists ===== */
+    .cta{display:flex; flex-wrap:wrap; gap:10px}
+    .btn{
+      display:inline-block; padding:10px 14px; border-radius:12px; font-weight:700; text-decoration:none;
+      background:var(--brand); color:#0b1021; border:1px solid #384df6;
+    }
+    .btn:hover{filter:brightness(1.05)}
+    .btn.ghost{background:transparent; color:#cdd6ff; border:1px solid var(--chip-br)}
+    .btn.ghost:hover{background:#1a2448}
+
+    /* Hero photo */
+    .photo-wrap{display:grid; place-items:center}
+    .photo{
+      width:min(320px, 70vw); height:min(320px, 70vw); border-radius:50%; overflow:hidden; position:relative;
+      border:2px solid #2f3a69; box-shadow:0 16px 40px rgba(0,0,0,.35);
+    }
+    .photo img{width:100%; height:100%; object-fit:cover; display:block}
+    .caption{margin-top:12px; color:#9fb0df; text-align:center}
+
+    /* Sections */
+    .section{margin-top:28px}
+    h2{margin:0 0 14px; font-size:24px}
+    h3.sub{margin:6px 0 10px; font-size:18px; color:#dfe6ff}
+
     .grid{display:grid; grid-template-columns:1fr 1fr; gap:18px}
     @media (max-width:900px){ .grid{grid-template-columns:1fr} }
-    .proj{border-radius:var(--radius-sm); padding:18px; border:1px solid var(--line); background:rgba(255,255,255,.02)}
-    .proj h3{font-size:18px}
-    .proj p{color:#cfd8ff}
+    .proj{border-radius:var(--radius-sm); padding:18px; border:1px solid var(--line); background:var(--panel)}
+    .proj h3{margin:0 0 8px; font-size:18px}
+    .proj p{margin:0 0 10px; color:var(--muted)}
 
-    .eyebrow{
-      display:inline-block; font-size:12px; font-weight:700; letter-spacing:.08em;
-      color:#8ea2ff; text-transform:uppercase; margin-bottom:6px;
-    }
-    .klist{list-style:none; padding:0; margin:0}
-    .klist li{position:relative; padding-left:26px; margin:10px 0; color:#dbe3ff}
-    .klist li::before{
-      content:""; width:8px; height:8px; border-radius:50%; background:#7c9dff;
-      position:absolute; left:0; top:10px; box-shadow:0 0 0 4px rgba(124,157,255,.15);
-    }
-    .klist strong{color:#ffffff}
+    .klist{margin:6px 0 0; padding-left:18px; color:var(--muted)}
+    .klist li{margin:6px 0}
 
-    /* Awards clean style */
-    .awards-list{list-style:none; padding:0; margin:0; display:grid; gap:14px}
-    .awards-list li{position:relative; padding-left:22px}
-    .awards-list li::before{
-      content:""; width:6px; height:6px; border-radius:50%; background:#7c9dff;
-      position:absolute; left:0; top:11px; box-shadow:0 0 0 4px rgba(124,157,255,.18);
+    /* About list */
+    .about-list{margin:8px 0 0; padding-left:0; list-style:none}
+    .about-list li{
+      position:relative; padding-left:28px; margin:10px 0; color:var(--ink);
     }
-    .award-title{font-weight:700}
-    .award-meta{color:#b7c7ff; margin-top:2px}
-    .award-meta a{color:#bcd1ff; text-decoration:none; border-bottom:1px solid rgba(188,209,255,.35)}
-    .award-meta a:hover{text-decoration:underline}
+    .about-list li::before{
+      content:""; position:absolute; left:0; top:.6em; width:12px; height:12px; border-radius:50%;
+      background: radial-gradient(circle at 30% 30%, #8ba8ff, #4257ff);
+      box-shadow:0 0 0 3px rgba(66,87,255,.18);
+    }
 
+    /* Footer */
     footer{border-top:1px solid var(--line); margin-top:28px}
-    .foot{max-width:var(--max); margin:0 auto; padding:18px 20px; color:#a8b3ff; font-size:.95rem; text-align:center}
+    .foot{max-width:var(--max); margin:0 auto; padding:18px 20px; color:#9fb0df; font-size:.95rem; text-align:center}
   </style>
 </head>
-
 <body>
-  <!-- ===== TOP (trimmed) NAV ===== -->
+
+  <!-- Header -->
   <header>
     <div class="bar">
       <div class="brand">Kiruthika Ramadoss</div>
-      <nav class="primary-nav">
-        <a href="#currently">About</a>
-        <a href="#projects">Projects</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Projects & Publications</a>
         <a href="#certs">Certifications</a>
-        <a href="#contact">Contact</a>
+        <a href="#awards">Awards</a>
       </nav>
     </div>
   </header>
 
   <main class="wrap">
-    <!-- ===== HERO ===== -->
+    <!-- HERO -->
     <section class="hero section">
+      <!-- Left: copy -->
       <div class="card">
-        <h1>Hi there, I'm Kiruthika Ramadoss <span aria-hidden="true">👋</span></h1>
-        <p class="lead">
-          I’m a data enthusiast with <strong>4+ years</strong> of experience across analytics,
-          program management, and cloud. I love turning data into decisions with
-          <strong>Python</strong>, <strong>SQL</strong>, <strong>Power BI</strong>, and ML.
-        </p>
-        <p class="meta">
-          Graduating <strong>Dec 2025</strong> • Open to roles in Data Analytics, Data Engineering,
-          Program Management, and Machine Learning
-        </p>
+        <h1 class="hero-title">Kiruthika Ramadoss</h1>
+<p class="lead">
+  I am a data and analytics professional with <strong>4+ years</strong> of experience in data analytics,
+  data engineering, program management, and cloud solutions. I specialize in driving data-informed
+  strategies, optimizing processes, and enabling business growth through advanced analytics and
+  program management.
+</p>
 
-        <div class="pills">
-          <span class="chip">SQL</span><span class="chip">Python</span><span class="chip">Power BI</span>
-          <span class="chip">Snowflake</span><span class="chip">Spark</span><span class="chip">AWS (CLF-C02)</span>
-        </div>
+        <ul class="pills" role="list" aria-label="Key skills">
+          <li><span class="chip">SQL</span></li>
+          <li><span class="chip">Python</span></li>
+          <li><span class="chip">Power BI</span></li>
+          <li><span class="chip">Cloud: Snowflake, AWS, Azure</span></li>
+          <li><span class="chip">Machine Learning</span></li>
+          <li><span class="chip">Project Management</span></li>
+        </ul>
 
-        <div class="actions">
-          <a class="btn" href="https://github.com/KiruthikaRamadoss" target="_blank">GitHub</a>
-          <a class="btn ghost" href="https://www.linkedin.com/in/kiruthikaramadoss/" target="_blank">LinkedIn</a>
+        <div class="cta">
+          <a class="btn" href="https://github.com/KiruthikaRamadoss" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/kiruthikaramadoss/" target="_blank" rel="noopener">LinkedIn</a>
           <a class="btn ghost" href="mailto:kiruthikaramadoss12@gmail.com">Email</a>
         </div>
       </div>
 
-      <div class="card" style="text-align:center">
+      <!-- Right: photo -->
+      <div class="card photo-wrap" aria-label="Portrait">
         <div class="photo">
-          <img
-            src="https://raw.githubusercontent.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/main/certificates/Github.jpg"
-            alt="Kiruthika Ramadoss">
+          <img src="https://raw.githubusercontent.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/main/certificates/Github.jpg" alt="Kiruthika Ramadoss">
         </div>
-        <p style="margin-top:12px; color:#a8b3ff">Texas State University • Level Up (VP Tech & Innovation)</p>
+        <p class="caption">Texas State University • Level Up (VP Tech & Innovation)</p>
       </div>
     </section>
 
-    <!-- ===== CURRENTLY ===== -->
-    <section id="currently" class="card section">
-      <div class="eyebrow">Overview</div>
-      <h2>About</h2>
-      <ul class="klist">
-        <li>Graduate student in <strong>Data Analytics & Information Systems</strong> at Texas State University (GPA 4.0)</li>
-        <li><strong>Vice President, Technology & Innovation</strong> at Level Up student organization</li>
-        <li><strong>Alpha Chi National College Honor Society</strong> member</li>
-        <li>Building end-to-end data pipelines, interactive dashboards, and ML models on cloud platforms</li>
-        <li>Bridging technical insights with strategic decision-making across analytics, BI, and program management</li>
+    <!-- ABOUT -->
+    <section id="about" class="card section" aria-labelledby="about-h">
+      <h2 id="about-h">About</h2>
+      <ul class="about-list">
+        <li>Graduate student in Data Analytics & Information Systems at Texas State University (GPA 4.0)</li>
+        <li>Vice President, Technology & Innovation at Level Up student organization</li>
+        <li>Alpha Chi National College Honor Society member</li>
+        <li>Build end-to-end data pipelines, interactive dashboards, and ML models on cloud platforms</li>
+        <li>Bridge technical insights with strategic decision-making across analytics, BI, and program management</li>
       </ul>
     </section>
 
-    <!-- ===== PROJECTS ===== -->
-    <section id="projects" class="card section">
-      <h2>Projects I've Worked On</h2>
+    <!-- WORK (Projects + Dashboards + Publications) -->
+    <section id="work" class="card section" aria-labelledby="work-h">
+      <h2 id="work-h">Work — Projects, Dashboards & Publications</h2>
+
+      <h3 class="sub">Projects</h3>
       <div class="grid">
+
         <div class="proj">
-          <h3>Sentiment Analysis of Twitter (X) Data</h3>
+          <h3>U.S. Bank Failures: A Data-Driven Summary</h3>
+          <p>Power BI dashboard analyzing U.S. bank failures by geography and time; highlights the Great Recession peak.</p>
+          <ul class="klist">
+            <li>Analyzed 561–563 failures across states, cities, and years.</li>
+            <li>Chicago & Atlanta hardest hit; top states: GA, FL, IL, CA.</li>
+            <li>Peak period 2008–2012; monthly spikes in July (74), Oct (63), Mar (60).</li>
+          </ul>
+          <p><strong>Tech:</strong> Power BI, Data Visualization, Microsoft Excel (preprocessing)</p>
+          <p class="cta" style="margin-top:10px">
+            <a class="btn" target="_blank" rel="noopener" href="https://github.com/KiruthikaRamadoss/U.S.-Bank-Failures-A-Data-Driven-Summary/tree/main">Repository</a>
+            <a class="btn ghost" target="_blank" rel="noopener" href="https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf">Dashboard</a>
+            <a class="btn ghost" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1ZGsYJp4dLr0HFkkZ32i-nmx6c3rAL1_p/view?usp=drive_link">Live Video</a>
+            <a class="btn ghost" target="_blank" rel="noopener" href="https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/US_Bank_Failures_Summary.pdf">Summary</a>
+          </p>
+        </div>
+
+        <div class="proj">
+          <h3>Twitter/X Sentiment Analysis</h3>
           <p>TF-IDF + LR/NB/SVM; ~45k tweets; Power BI for sentiment by age/time.</p>
           <p><strong>Tech:</strong> Python, scikit-learn, pandas, TF-IDF, Power BI</p>
-          <p><a class="btn" href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis" target="_blank">Repository →</a></p>
+          <p class="cta"><a class="btn ghost" target="_blank" rel="noopener" href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis">Repository</a></p>
         </div>
+
         <div class="proj">
           <h3>Real-Time Network Anomaly Detection</h3>
-          <p>Isolation Forest & RF with SMOTE; PCA; 83% recall / 63% accuracy; poster @ TXST Data & AI Day.</p>
+          <p>Isolation Forest & Random Forest with SMOTE; PCA; 83% recall / 63% accuracy; poster @ TXST Data & AI Day.</p>
           <p><strong>Tech:</strong> Python, scikit-learn, pandas, matplotlib, SMOTE, PCA</p>
-          <p><a class="btn" href="https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection" target="_blank">Repository →</a></p>
+          <p class="cta"><a class="btn ghost" target="_blank" rel="noopener" href="https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection">Repository</a></p>
         </div>
+
         <div class="proj">
           <h3>Diabetes Prediction Using Health Indicators</h3>
-          <p>LogReg, DT, NN, SVM, KNN; up to 96% accuracy; preprocessing + SMOTE + FE.</p>
+          <p>LogReg, DT, NN, SVM, KNN; up to 96% accuracy; preprocessing + SMOTE + feature engineering.</p>
           <p><strong>Tech:</strong> Python, scikit-learn, pandas, matplotlib, seaborn</p>
-          <p><a class="btn" href="https://github.com/KiruthikaRamadoss/Diabetes-Prediction-ML" target="_blank">Repository →</a></p>
-        </div>
-        <div class="proj">
-          <h3>Avocado Retailing Analysis</h3>
-          <p>EDA + forecasting (ARIMA/Prophet) + LP for prescriptive insights.</p>
-          <p><strong>Tech:</strong> Python, pandas, statsmodels, Prophet</p>
-          <p><a class="btn" href="https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis" target="_blank">Repository →</a></p>
-        </div>
-        <div class="proj">
-          <h3>Home Loan Credit Scoring Model</h3>
-          <p>Feature engineering; LR/DT/RF; 85% accuracy; 98.5% decision efficiency lift.</p>
-          <p><strong>Tech:</strong> Python, scikit-learn, pandas, Power BI</p>
-          <p><a class="btn" href="https://github.com/KiruthikaRamadoss/Home-Loan-Approval-Prediction/tree/main" target="_blank">Repository →</a></p>
-        </div>
-        <div class="proj">
-          <h3>Competitive Analysis & Market Positioning — X + Applied AI</h3>
-          <p>Design Thinking: interviews, personas, competitive analysis; hybrid delivery & mentorship recommendations.</p>
-          <p><strong>Tools:</strong> SCAMPER, Miro, Persona/Journey Mapping</p>
-          <p><a class="btn" href="https://github.com/KiruthikaRamadoss/Competitive-Analysis-Market-Positioning-for-X-Applied-AI-program" target="_blank">Repository →</a></p>
+          <p class="cta"><a class="btn ghost" target="_blank" rel="noopener" href="https://github.com/KiruthikaRamadoss/Diabetes-Prediction-ML">Repository</a></p>
         </div>
       </div>
-    </section>
 
-    <!-- ===== DASHBOARDS (with your new item) ===== -->
-    <section id="dashboards" class="card section">
-      <h2>Dashboards & Visualizations</h2>
+      <h3 class="sub">Dashboards & Visualizations</h3>
+      <ul class="klist">
+        <li><strong>Power BI — Twitter/X Sentiment:</strong>
+          <a target="_blank" rel="noopener" href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf">View Dashboard (PDF)</a>
+        </li>
+      </ul>
 
-      <div class="proj" style="margin-bottom:12px">
-        <h3>Power BI — Twitter/X Sentiment</h3>
-        <p>
-          Dashboard of sentiment by time of day, age group, and class proportions.
-          <a href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf" target="_blank">View Dashboard (PDF)</a>
-        </p>
-      </div>
-
-      <div class="proj">
-        <h3>Power BI — U.S. Bank Failures: A Data-Driven Summary</h3>
+      <h3 class="sub">Publications</h3>
+      <div class="pub">
+        <p><strong>Data-Driven Analysis for Reduction of Air Pollution in Urban Areas</strong> — IEEE Xplore, 2019 International Conference on Systems, Computing, and Networking (ICSCAN).</p>
         <ul class="klist">
-          <li>Top states & cities with the highest failures (<strong>Chicago & Atlanta</strong> leading)</li>
-          <li>Yearly trends, with <strong>2008–2012</strong> financial crisis as peak period</li>
-          <li>Monthly spikes in failures, especially <strong>July, October, and March</strong></li>
+          <li>Developed a scalable, real-time air-quality monitoring system.</li>
+          <li>Enabled real-time data collection and environmental analysis for smart cities.</li>
         </ul>
-        <p class="actions" style="margin-top:10px">
-          <a class="btn ghost" target="_blank" href="https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf">View Dashboard</a>
-          <a class="btn ghost" target="_blank" href="https://drive.google.com/file/d/1ZGsYJp4dLr0HFkkZ32i-nmx6c3rAL1_p/view?usp=drive_link">View Live Video</a>
-          <a class="btn ghost" target="_blank" href="https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/US_Bank_Failures_Summary.pdf">View Summary</a>
-        </p>
+        <p class="cta"><a class="btn ghost" target="_blank" rel="noopener" href="https://ieeexplore.ieee.org/document/8878780">View on IEEE Xplore →</a></p>
       </div>
     </section>
 
-    <!-- ===== CERTIFICATIONS ===== -->
-    <section id="certs" class="card section">
-      <h2>Certifications</h2>
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="card section" aria-labelledby="certs-h">
+      <h2 id="certs-h">Certifications</h2>
       <ul class="klist">
-        <li><a target="_blank" href="certificates/AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf">AWS Certified Cloud Practitioner</a></li>
-        <li><a target="_blank" href="certificates/Certificate%20-%20Power%20BI%20Beginner%20to%20Pro.pdf">Power BI Beginner to Pro</a></li>
-        <li><a target="_blank" href="certificates/GEN%20AI.pdf">Databricks Generative AI</a></li>
-        <li><a target="_blank" href="certificates/Time%20Series%20Analysis%20in%20Power%20BI.pdf">Time Series Analysis in Power BI</a></li>
-        <li><a target="_blank" href="certificates/Data-Driven%20Decision%20Making%20in%20SQL%20certificate.pdf">Data-Driven Decision Making in SQL</a></li>
-        <li><a target="_blank" href="certificates/Google%20adv%20analytics%20.pdf">Advanced Google Analytics</a></li>
-        <li><a target="_blank" href="certificates/End%20to%20end%20ML.pdf">End-to-End Machine Learning</a></li>
-        <li><a target="_blank" href="certificates/LLm%20certificate.pdf">Large Language Models (LLM) Concepts</a></li>
-        <li><a target="_blank" href="certificates/Python_for_Data_Science_Badge20240903-7-2i5npi.pdf">Python for Data Science</a></li>
-        <li><a target="_blank" href="certificates/Supply%20chain%20analytics%20in%20Python.pdf">Supply Chain Analytics in Python</a></li>
-        <li><a target="_blank" href="certificates/CertificateOfCompletion_ETL%20in%20Python%20and%20SQL.pdf">ETL in Python and SQL</a></li>
-        <li><a target="_blank" href="certificates/Certificate%20Basic%20Data%20Visualization%20in%20python.pdf">Basic Data Visualization in Python</a></li>
-        <li><a target="_blank" href="certificates/certificate%20for%20SPSS.pdf">Basic Data Visualization in SPSS</a></li>
-        <li><a target="_blank" href="certificates/Ramadoss%20Certificate%20-%20ShopTalks.pdf">Texas State ShopTalks</a></li>
-        <li><a target="_blank" href="certificates/certificate%20Excel.pdf">Introduction to Excel</a></li>
-        <li><a target="_blank" href="certificates/certificate%20Stat.pdf">Introduction to Statistics</a></li>
-        <li><a target="_blank" href="certificates/Certificate%20Intro%20Pyhton%20101.pdf">Introduction to Python 101</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf">AWS Certified Cloud Practitioner</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/Certificate%20-%20Power%20BI%20Beginner%20to%20Pro.pdf">Power BI Beginner to Pro</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/GEN%20AI.pdf">Databricks Generative AI</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/Time%20Series%20Analysis%20in%20Power%20BI.pdf">Time Series Analysis in Power BI</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/Data-Driven%20Decision%20Making%20in%20SQL%20certificate.pdf">Data-Driven Decision Making in SQL</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/Google%20adv%20analytics%20.pdf">Advanced Google Analytics</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/End%20to%20end%20ML.pdf">End-to-End Machine Learning</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/LLm%20certificate.pdf">Large Language Models (LLM) Concepts</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/Python_for_Data_Science_Badge20240903-7-2i5npi.pdf">Python for Data Science</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/Supply%20chain%20analytics%20in%20Python.pdf">Supply Chain Analytics in Python</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/CertificateOfCompletion_ETL%20in%20Python%20and%20SQL.pdf">ETL in Python and SQL</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/Certificate%20Basic%20Data%20Visualization%20in%20python.pdf">Basic Data Visualization in Python</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/certificate%20for%20SPSS.pdf">Basic Data Visualization in SPSS</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/Ramadoss%20Certificate%20-%20ShopTalks.pdf">Texas State ShopTalks</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/certificate%20Excel.pdf">Introduction to Excel</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/certificate%20Stat.pdf">Introduction to Statistics</a></li>
+        <li><a target="_blank" rel="noopener" href="certificates/Certificate%20Intro%20Pyhton%20101.pdf">Introduction to Python 101</a></li>
       </ul>
     </section>
 
-    <!-- ===== HONORS & AWARDS (includes Phi Kappa Phi) ===== -->
-    <section id="awards" class="card section">
-      <h2>Honors & Awards</h2>
-      <ul class="awards-list">
-        <li>
-          <div class="award-title">Alpha Chi National College Honor Society — Texas Iota Chapter</div>
-          <div class="award-meta">
-            Top 10% recognition ·
-            <a href="certificates/Alpha%20Chi%20Award.png" target="_blank">AlphaChiAward</a> ·
-            <a href="https://alphachihonor.org/" target="_blank">About Alpha Chi</a>
-          </div>
-        </li>
-
-        <li>
-          <div class="award-title">The Honor Society of Phi Kappa Phi — Texas State University Chapter</div>
-          <div class="award-meta">
-            Invitation extended to graduate students in the top 10% of class ·
-            <a href="certificates/Phi%20Kappa%20Phi.png" target="_blank">Phi Kappa Phi Award</a> ·
-            <a href="https://phikappaphi.org/about" target="_blank">About Phi Kappa Phi</a>
-          </div>
-        </li>
-
-        <li>
-          <div class="award-title">Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025)</div>
-          <div class="award-meta">
-            Tuition support + non-resident waiver ·
-            <a href="certificates/2025%20Scholorship%20award%20Kiuthika.pdf" target="_blank">Award Letter</a>
-          </div>
-        </li>
-
-        <li>
-          <div class="award-title">Competitive Graduate Scholarship (Summer 2025)</div>
-          <div class="award-meta">Recognized for scholarly distinction and professional growth</div>
-        </li>
-
-        <li>
-          <div class="award-title">Graduate Merit Fellowship (2024–2025)</div>
-          <div class="award-meta">
-            Merit-based fellowship for academic excellence ·
-            <a href="certificates/2024%20Scholorship%20Award.pdf" target="_blank">Award Letter</a>
-          </div>
-        </li>
-
-        <li>
-          <div class="award-title">Chief Minister’s Award for Excellence in E-Governance for Students (2018)</div>
-          <div class="award-meta">CII Connect 2018 — innovation and social impact</div>
-        </li>
-      </ul>
-    </section>
-
-    <!-- ===== PUBLICATIONS ===== -->
-    <section id="pubs" class="card section">
-      <h2>Publications</h2>
-      <p><strong>Data-Driven Analysis for Reduction of Air Pollution in Urban Areas</strong> — IEEE Xplore, 2019 International Conference on Systems, Computing, and Networking (ICSCAN).</p>
+    <!-- AWARDS -->
+    <section id="awards" class="card section" aria-labelledby="awards-h">
+      <h2 id="awards-h">Awards</h2>
       <ul class="klist">
-        <li>Developed a scalable, real-time air quality monitoring system.</li>
-        <li>Enabled real-time data collection and environmental analysis for smart cities.</li>
+        <li>Alpha Chi National College Honor Society — Texas Iota Chapter · Top 10% — 
+          <a target="_blank" rel="noopener" href="certificates/Alpha%20Chi%20Award.png">AlphaChiAward</a> · 
+          <a target="_blank" rel="noopener" href="https://alphachihonor.org/">About Alpha Chi</a>
+        </li>
+        <li>Dorothy Jewell Leinneweber Graduate Fellowship in Business (2025) — tuition support + non-resident waiver — 
+          <a target="_blank" rel="noopener" href="certificates/2025%20Scholorship%20award%20Kiuthika.pdf">Award Letter</a>
+        </li>
+        <li>Competitive Graduate Scholarship (Summer 2025)</li>
+        <li>Graduate Merit Fellowship (2024–2025) — 
+          <a target="_blank" rel="noopener" href="certificates/2024%20Scholorship%20Award.pdf">Award Letter</a>
+        </li>
+        <li>The Honor Society of Phi Kappa Phi — Texas State University Chapter — Invitation extended to graduate students in the top 10% —
+          <a target="_blank" rel="noopener" href="certificates/Phi%20Kappa%20Phi.png">Phi Kappa Phi Award</a> ·
+          <a target="_blank" rel="noopener" href="https://phikappaphi.org/about">About Phi Kappa Phi</a>
+        </li>
+        <li>Chief Minister’s Award for Excellence in E-Governance for Students (2018) — CII Connect 2018</li>
       </ul>
-      <p class="actions"><a class="btn ghost" target="_blank" href="https://ieeexplore.ieee.org/document/8878780">View on IEEE Xplore →</a></p>
-    </section>
-
-    <!-- ===== TOOLKIT ===== -->
-    <section id="toolkit" class="card section">
-      <h2>My Toolkit</h2>
-      <p><strong>Programming:</strong> SQL, Python, HTML</p>
-      <p><strong>Data Science & Analytics:</strong> Data Analysis, Statistical Methods, Data Wrangling, Data Mining, Databricks, Data Pipelines</p>
-      <p><strong>ML & AI:</strong> Machine Learning, Artificial Intelligence, NLP, NLU/NLG, Prompt Engineering</p>
-      <p><strong>Visualization & BI:</strong> Tableau, Power BI, Advanced Excel</p>
-      <p><strong>Dev & IDEs:</strong> PyCharm, Visual Studio, Jupyter Notebook, Google Colab, Anaconda</p>
-      <p><strong>Cloud & Big Data:</strong> AWS, GCP, Azure Synapse, Spark, PySpark, Kafka, Airflow</p>
-      <p><strong>Version Control & Agile:</strong> Git, Jira, Agile Methodologies</p>
-      <p><strong>Soft Skills:</strong> Critical Thinking, Organizational Skills, Detail-Oriented, Leadership, Problem-Solving</p>
-    </section>
-
-    <!-- ===== CONTACT ===== -->
-    <section id="contact" class="card section">
-      <h2>Let’s Connect</h2>
-      <p>
-        <strong>LinkedIn:</strong> <a target="_blank" href="https://www.linkedin.com/in/kiruthikaramadoss/">linkedin.com/in/kiruthikaramadoss</a><br>
-        <strong>GitHub:</strong> <a target="_blank" href="https://github.com/KiruthikaRamadoss">github.com/KiruthikaRamadoss</a><br>
-        <strong>Email:</strong> <a href="mailto:kiruthikaramadoss12@gmail.com">kiruthikaramadoss12@gmail.com</a>
-      </p>
-      <p style="color:#a8b3ff">Thanks for visiting! I’m always happy to connect, collaborate, or chat about data, analytics, or technology.</p>
     </section>
   </main>
 
   <footer>
-    <div class="foot">© <span id="y"></span> Kiruthika Ramadoss</div>
+    <div class="foot">© <span id="y"></span> Kiruthika Ramadoss • <a class="btn ghost" href="mailto:kiruthikaramadoss12@gmail.com">Email</a></div>
   </footer>
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
