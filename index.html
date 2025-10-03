@@ -43,8 +43,16 @@
       backdrop-filter:saturate(140%) blur(8px);
       border-bottom:1px solid rgba(255,255,255,.05);
     }
-    .bar{max-width:var(--max); margin:0 auto; padding:12px 18px; display:flex; align-items:center; gap:18px}
-    .brand{font-weight:800; letter-spacing:.3px; font-size:18px}
+    .bar{max-width:var(--max); margin:0 auto; padding:12px 18px; display:flex; align-items:center; gap:14px}
+    /* KR badge to avoid repeating the full name */
+    .brand-logo{
+      width:34px; height:34px; display:grid; place-items:center;
+      border-radius:50%;
+      background:linear-gradient(135deg,var(--brand),var(--brand-2));
+      color:#0d1222; font-weight:800; letter-spacing:.2px; font-size:14px;
+      box-shadow:0 6px 14px rgba(124,140,255,.35), inset 0 1px 0 rgba(255,255,255,.45);
+      user-select:none;
+    }
     nav{margin-left:auto; display:flex; gap:26px; flex-wrap:wrap}
     nav a{color:var(--text); opacity:.88; text-decoration:none; font-weight:600; padding:8px 10px; border-radius:10px}
     nav a:hover{background:rgba(124,140,255,.12); color:#fff}
@@ -69,24 +77,20 @@
     }
     @media (max-width:980px){ .hero{grid-template-columns:1fr} }
 
-    /* spacing tweaks for the hero */
-    .hero-title{font-size:54px; line-height:1.02; margin:4px 0 28px; font-weight:800;} /* extra space under name */
-    .lead{color:var(--muted); font-size:18px; margin:0 0 14px;} /* space after each intro line */
-    .hero .chips{ margin-top:18px; } /* push chips down */
-
-    @media (max-width:600px){
-      .hero-title{ margin-bottom:22px; }
-      .hero .chips{ margin-top:16px; }
+    .hero-title{
+      font-size:54px; line-height:1.02; font-weight:800;
+      margin:4px 0 28px; /* more space under the name */
     }
+    .lead{color:var(--muted); font-size:18px; margin:0 0 16px;} /* space under hero lines */
 
     /* Chips */
-    .chips{display:flex; flex-wrap:wrap; gap:10px; padding:0}
+    .chips{display:flex; flex-wrap:wrap; gap:14px; margin-top:20px; padding:0}
     .chip{
       background:var(--chip); border:1px solid #293756; color:#cfd6ea;
-      padding:9px 12px; border-radius:999px; font-weight:600; font-size:14.5px; white-space:nowrap;
+      padding:10px 14px; border-radius:999px; font-weight:600; font-size:14.5px; white-space:nowrap;
     }
 
-    /* Photo + centered stack */
+    /* Photo */
     .photo{
       display:flex; align-items:center; justify-content:center;
       background:radial-gradient(800px 400px at 50% -10%, rgba(124,140,255,.18), transparent 60%), var(--panel-2);
@@ -112,60 +116,45 @@
       white-space:nowrap;
     }
     .btn:hover{transform:translateY(-2px); filter:brightness(1.06)}
-    .btn.sm{padding:8px 12px; border-radius:12px; font-weight:700; font-size:14.5px; box-shadow:0 6px 14px rgba(124,140,255,.28)}
+    /* Small size (match GitHub/LinkedIn/Email) */
+    .btn.sm{ padding:8px 12px; border-radius:12px; font-weight:700; font-size:14.5px; box-shadow:0 6px 14px rgba(124,140,255,.28) }
+    /* Ghost style (Dashboard/Live Video, etc.) */
     .btn.ghost{ background:transparent; color:#cfd6ea; border:1px solid #3a4a6c; box-shadow:none; }
-    .btn.ghost:hover{background:rgba(124,140,255,.08); border-color:#506294}
+    .btn.ghost:hover{ background:rgba(124,140,255,.08); border-color:#506294 }
     .btn-row{display:flex; gap:10px; flex-wrap:wrap; justify-content:center}
-
-    /* Grids, lists */
-    h2{margin:0 0 14px; font-size:26px}
-    h3{margin:0 0 10px; font-size:22px}
-    .grid2{display:grid; grid-template-columns:1fr 1fr; gap:18px}
-    @media (max-width:980px){ .grid2{grid-template-columns:1fr} }
-    .meta{color:var(--muted); margin:8px 0 14px}
-    ul.slim{margin:8px 0 0 20px}
-    ul.slim li{margin:8px 0}
     .btn-group{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px}
-    a.link{color:#cdd7ff; text-decoration:underline; text-decoration-color:rgba(205,215,255,.35)}
-    a.link:hover{color:#fff}
 
-    /* === Neater Toolkit look === */
-    section.toolkit .tk-grid{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:18px;
+    /* Headings + emojis */
+    h2{margin:0 0 20px; font-size:26px}
+    h3{margin:0 0 10px; font-size:22px}
+    h2[data-emoji]::before{
+      content: attr(data-emoji) " ";
+      font-size:1.1em; margin-right:.5rem; vertical-align:-0.08em; opacity:.95;
     }
-    @media (max-width:980px){
-      section.toolkit .tk-grid{ grid-template-columns:1fr; }
-    }
+
+    /* Extra breathing room beneath the Projects section heading */
+    #work .card > h2{ margin-bottom:22px; }
+
+    /* Project metadata text */
+    .meta{color:var(--muted); margin:8px 0 14px}
+
+    /* --- Toolkit (indent bullets a bit right, headings not on same line) --- */
+    section.toolkit .tk-grid{ display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    @media (max-width:980px){ section.toolkit .tk-grid{ grid-template-columns:1fr; } }
     section.toolkit .tk-card{
       background:var(--panel-2);
       border:1px solid var(--line);
       border-radius:var(--radius);
       padding:18px 20px;
-      box-shadow:none;
     }
-    section.toolkit h3{
-      font-size:20px; font-weight:700;
-      margin:12px 0 6px; padding-left:12px;
-      position:relative; color:var(--text);
-    }
-    section.toolkit h3::before{
-      content:"";
-      position:absolute; left:0; top:50%;
-      width:4px; height:16px; border-radius:2px;
-      background:linear-gradient(180deg, var(--brand), var(--brand-2));
-      transform:translateY(-50%);
-    }
-    section.toolkit ul.clean{
-      list-style:none; margin:6px 0 12px; padding:0;
-    }
+    section.toolkit h3{ font-size:20px; font-weight:700; margin:12px 0 6px; }
+    section.toolkit ul.clean{ list-style:none; margin:6px 0 12px 8px; padding:0; } /* nudge list right */
     section.toolkit ul.clean li{
-      position:relative; padding-left:14px; margin:6px 0; color:var(--muted);
+      position:relative; padding-left:20px; margin:6px 0; color:var(--muted);
     }
     section.toolkit ul.clean li::before{
-      content:""; position:absolute; left:0; top:.7em;
-      width:6px; height:6px; border-radius:50%; background:#7282a1; opacity:.85;
+      content:""; position:absolute; left:4px; top:.7em; width:6px; height:6px; border-radius:50%;
+      background:#7282a1; opacity:.85;
     }
 
     /* Footer */
@@ -177,7 +166,7 @@
   <!-- Header -->
   <header>
     <div class="bar">
-      <div class="brand">Kiruthika Ramadoss</div>
+      <div class="brand-logo" aria-label="Kiruthika Ramadoss">KR</div>
       <nav>
         <a href="#about">About</a>
         <a href="#work">Projects & Dashboards</a>
@@ -194,7 +183,6 @@
       <!-- left -->
       <div class="card">
         <h1 class="hero-title">Kiruthika Ramadoss</h1>
-
         <p class="lead">
           I am a data and analytics professional with <strong>4+ years</strong> of experience in
           data analytics, data engineering, program management and cloud solutions.
@@ -204,6 +192,7 @@
           advanced analytics and program management.
         </p>
 
+        <!-- chips -->
         <div class="chips" aria-label="Key skills" role="list">
           <span class="chip">SQL</span>
           <span class="chip">Python</span>
@@ -232,86 +221,93 @@
     <!-- PROJECTS & DASHBOARDS -->
     <section id="work" class="section">
       <div class="card alt">
-        <h2>Projects & Dashboards</h2>
+        <h2 data-emoji="📊">Projects & Dashboards</h2>
 
         <div class="grid2">
+          <!-- Bank Failures -->
           <div class="card">
             <h3>U.S. Bank Failures: A Data-Driven Summary</h3>
             <p class="meta">Power BI dashboard analyzing U.S. bank failures by geography and time; highlights the Great Recession peak.</p>
             <p class="meta"><strong>Tech:</strong> Power BI, Data Visualization, Microsoft Excel</p>
             <div class="btn-group">
-              <a class="btn" href="https://github.com/KiruthikaRamadoss/U.S.-Bank-Failures-A-Data-Driven-Summary/tree/main" target="_blank" rel="noopener">Repository</a>
-              <a class="btn ghost" href="https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf" target="_blank" rel="noopener">Dashboard</a>
-              <a class="btn ghost" href="https://drive.google.com/file/d/1ZGsYJp4dLr0HFkkZ32i-nmx6c3rAL1_p/view?usp=drive_link" target="_blank" rel="noopener">Live Video</a>
+              <a class="btn sm" href="https://github.com/KiruthikaRamadoss/U.S.-Bank-Failures-A-Data-Driven-Summary/tree/main" target="_blank" rel="noopener">Repository</a>
+              <a class="btn sm ghost" href="https://github.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/blob/main/certificates/Kiru%20File.pdf" target="_blank" rel="noopener">Dashboard</a>
+              <a class="btn sm ghost" href="https://drive.google.com/file/d/1ZGsYJp4dLr0HFkkZ32i-nmx6c3rAL1_p/view?usp=drive_link" target="_blank" rel="noopener">Live Video</a>
             </div>
           </div>
 
+          <!-- Twitter Sentiment -->
           <div class="card">
             <h3>Twitter/X Sentiment Analysis</h3>
             <p class="meta">TF-IDF + LR/NB/SVM; ~45k tweets; Power BI for sentiment by age/time.</p>
             <p class="meta"><strong>Tech:</strong> Python, scikit-learn, pandas, TF-IDF, Power BI</p>
             <div class="btn-group">
-              <a class="btn" href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis" target="_blank" rel="noopener">Repository</a>
-              <a class="btn ghost" href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf" target="_blank" rel="noopener">Dashboard</a>
+              <a class="btn sm" href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis" target="_blank" rel="noopener">Repository</a>
+              <a class="btn sm ghost" href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf" target="_blank" rel="noopener">Dashboard</a>
             </div>
           </div>
 
+          <!-- Real-time Anomaly -->
           <div class="card">
             <h3>Real-Time Network Anomaly Detection</h3>
             <p class="meta">Isolation Forest &amp; Random Forest with SMOTE; PCA; 83% recall / 63% accuracy.</p>
             <p class="meta"><strong>Tech:</strong> Python, scikit-learn, pandas, matplotlib, SMOTE, PCA</p>
             <div class="btn-group">
-              <a class="btn" href="https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection" target="_blank" rel="noopener">Repository</a>
+              <a class="btn sm" href="https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection" target="_blank" rel="noopener">Repository</a>
             </div>
           </div>
 
+          <!-- Diabetes -->
           <div class="card">
             <h3>Diabetes Prediction Using Health Indicators</h3>
             <p class="meta">LogReg, DT, NN, SVM, KNN; handled preprocessing + SMOTE; up to 96% accuracy.</p>
             <p class="meta"><strong>Tech:</strong> Python, scikit-learn, pandas, matplotlib, seaborn</p>
             <div class="btn-group">
-              <a class="btn" href="https://github.com/KiruthikaRamadoss/Diabetes-Prediction-ML" target="_blank" rel="noopener">Repository</a>
+              <a class="btn sm" href="https://github.com/KiruthikaRamadoss/Diabetes-Prediction-ML" target="_blank" rel="noopener">Repository</a>
             </div>
           </div>
 
+          <!-- Avocado -->
           <div class="card">
             <h3>Avocado Retailing Analysis</h3>
             <p class="meta">EDA + forecasting (ARIMA/Prophet) + prescriptive analytics via LP.</p>
             <p class="meta"><strong>Tech:</strong> Python, pandas, statsmodels, Prophet</p>
             <div class="btn-group">
-              <a class="btn" href="https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis" target="_blank" rel="noopener">Repository</a>
+              <a class="btn sm" href="https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis" target="_blank" rel="noopener">Repository</a>
             </div>
           </div>
 
+          <!-- Home Loan -->
           <div class="card">
             <h3>Home Loan Credit Scoring Model</h3>
             <p class="meta">Feature engineering; LR/DT/RF; 85% accuracy; decision efficiency +98.5%.</p>
             <p class="meta"><strong>Tech:</strong> Python, scikit-learn, pandas, Power BI</p>
             <div class="btn-group">
-              <a class="btn" href="https://github.com/KiruthikaRamadoss/Home-Loan-Approval-Prediction/tree/main" target="_blank" rel="noopener">Repository</a>
+              <a class="btn sm" href="https://github.com/KiruthikaRamadoss/Home-Loan-Approval-Prediction/tree/main" target="_blank" rel="noopener">Repository</a>
             </div>
           </div>
 
+          <!-- Design Thinking -->
           <div class="card">
             <h3>Competitive Analysis &amp; Market Positioning — X + Applied AI</h3>
             <p class="meta">Design Thinking: interviews, personas, competitive analysis; hybrid model &amp; mentorship recommendations.</p>
             <p class="meta"><strong>Tools:</strong> SCAMPER, Miro, Persona/Journey Mapping</p>
             <div class="btn-group">
-              <a class="btn" href="https://github.com/KiruthikaRamadoss/Competitive-Analysis-Market-Positioning-for-X-Applied-AI-program" target="_blank" rel="noopener">Repository</a>
+              <a class="btn sm" href="https://github.com/KiruthikaRamadoss/Competitive-Analysis-Market-Positioning-for-X-Applied-AI-program" target="_blank" rel="noopener">Repository</a>
             </div>
           </div>
         </div>
 
         <!-- Publications -->
         <div class="card alt" style="margin-top:18px">
-          <h3>Publications</h3>
+          <h3 data-emoji="📄">Publications</h3>
           <p class="meta"><strong>Data-Driven Analysis for Reduction of Air Pollution in Urban Areas</strong> — IEEE Xplore, 2019 International Conference on Systems, Computing, and Networking (ICSCAN).</p>
-          <ul class="slim">
+          <ul class="meta" style="margin:8px 0 12px 20px">
             <li>Developed a scalable, real-time air quality monitoring system.</li>
             <li>Enabled real-time collection &amp; environmental analysis for smart cities.</li>
           </ul>
           <div class="btn-group">
-            <a class="btn ghost" href="https://ieeexplore.ieee.org/document/8878780" target="_blank" rel="noopener">View on IEEE Xplore</a>
+            <a class="btn sm ghost" href="https://ieeexplore.ieee.org/document/8878780" target="_blank" rel="noopener">View on IEEE Xplore</a>
           </div>
         </div>
       </div>
@@ -320,8 +316,8 @@
     <!-- CERTIFICATIONS -->
     <section id="certs" class="section">
       <div class="card">
-        <h2>Certifications</h2>
-        <ul class="slim">
+        <h2 data-emoji="🎓">Certifications</h2>
+        <ul class="meta" style="margin:8px 0 0 20px">
           <li><a class="link" href="certificates/AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf" target="_blank">AWS Certified Cloud Practitioner</a></li>
           <li><a class="link" href="certificates/Certificate%20-%20Power%20BI%20Beginner%20to%20Pro.pdf" target="_blank">Power BI Beginner to Pro</a></li>
           <li><a class="link" href="certificates/GEN%20AI.pdf" target="_blank">Databricks Generative AI</a></li>
@@ -346,8 +342,8 @@
     <!-- AWARDS -->
     <section id="awards" class="section">
       <div class="card alt">
-        <h2>Awards & Honors</h2>
-        <ul class="slim">
+        <h2 data-emoji="🏆">Awards & Honors</h2>
+        <ul class="meta" style="margin:8px 0 0 20px">
           <li>Alpha Chi National College Honor Society — Texas Iota Chapter — Top 10% recognition —
             <a class="link" href="certificates/Alpha%20Chi%20Award.png" target="_blank">AlphaChi Award</a> ·
             <a class="link" href="https://alphachihonor.org/" target="_blank">About Alpha Chi</a>
@@ -371,9 +367,9 @@
     <!-- TOOLKIT -->
     <section id="toolkit" class="section toolkit">
       <div class="card">
-        <h2>Toolkit</h2>
-
+        <h2 data-emoji="🛠️">Toolkit</h2>
         <div class="tk-grid">
+          <!-- Column 1 -->
           <div class="tk-card">
             <h3>Programming & Visualization</h3>
             <ul class="clean">
@@ -398,6 +394,7 @@
             </ul>
           </div>
 
+          <!-- Column 2 -->
           <div class="tk-card">
             <h3>Development Environments</h3>
             <ul class="clean">
