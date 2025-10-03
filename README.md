@@ -257,21 +257,19 @@ Received recognition at CII Connect 2018 with the Chief Minister’s Award for E
 
 ## 🛠️ My Toolkit:
 
-**Programming Languages:** SQL, Python, HTML
+**Programming & Visualization:** Python, SQL, Power BI, Tableau, Advanced Excel
 
-**Data Science & Analytics:** Data Analysis, Statistical Methods, Data Wrangling, Data Mining, Databricks, Data Pipelines
+**Data Engineering:** Data Analysis, Data Wrangling, Data Mining, ETL, Data Pipelines, Databricks, Statistical Methods
 
-**Machine Learning & AI:** Machine Learning, Artificial Intelligence, NLP, NLU/NLG, Prompt Engineering
+**Machine Learning & AI:** Natural Language Processing (NLP), NLU/NLG, Generative AI, Prompt Engineering
 
-**Visualization & BI Tools:** Tableau, Power BI, Advanced Excel
+**Cloud & Big Data:** AWS, Google Cloud Platform (GCP), Azure Synapse, Snowflake, PySpark, Kafka, Airflow
 
-**Development & IDEs:** PyCharm, Visual Studio, Jupyter Notebook, Google Colab, Anaconda
+**Development Environments:** Jupyter Notebook, Google Colab, PyCharm, Visual Studio, Anaconda
 
-**Cloud & Big Data:** AWS, Google Cloud Platform (GCP), Azure Synapse, Spark, PySpark, Kafka, Airflow
+**Project & Collaboration:** Git, Jira, Agile Methodologies, Scrum 
 
-**Version Control & Agile Tools:** Git, Jira, Agile Methodologies
-
-**Soft Skills:** Critical Thinking, Organizational Skills, Detail-Oriented, Leadership, Problem-Solving
+**Soft Skills:** Critical Thinking, Problem-Solving, Leadership, Stakeholder Communication, Cross-Functional Collaboration, Organizational Skills, Attention to Detail
 
 ---
 
