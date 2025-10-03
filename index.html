@@ -1,66 +1,91 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Kiruthika Ramadoss - Portfolio</title>
+  <meta name="description" content="Data Analytics • Machine Learning • Cloud" />
   <style>
+    :root {
+      --bg: #f4f7fb;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --brand: #1f2937;
+      --link: #2563eb;
+      --btn: #121b42;
+      --btn-border: #2b3b86;
+    }
+    * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f4f7fb;
-      color: #333;
+      font-family: -apple-system, system-ui, Segoe UI, Roboto, Inter, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.6;
     }
     header {
-      background: #1f2937;
+      background: var(--brand);
       color: #fff;
-      padding: 2rem;
+      padding: 2.25rem 1rem;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.1rem;
-      color: #d1d5db;
-    }
-    nav {
-      margin-top: 1rem;
-    }
+    header h1 { margin: 0; font-size: 2.4rem; }
+    header p { margin: .4rem 0 0; color: #cbd5e1; }
+    nav { margin-top: .8rem; }
     nav a {
-      color: #60a5fa;
+      color: #93c5fd;
       text-decoration: none;
       margin: 0 10px;
-      font-weight: 500;
+      font-weight: 600;
     }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
+    nav a:hover { text-decoration: underline; }
+
+    .wrap { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
     section {
-      background: #fff;
-      margin-bottom: 2rem;
-      padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      background: var(--panel);
+      border-radius: 12px;
+      padding: 1.4rem;
+      margin-bottom: 1.2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,.06);
     }
-    section h2 {
-      margin-top: 0;
-      color: #1f2937;
+    section h2 { margin-top: 0; font-size: 1.3rem; }
+    ul { padding-left: 1.2rem; }
+    .muted { color: var(--muted); }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--btn-border);
+      background: var(--btn);
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
     }
+    .btn:hover { filter: brightness(1.08); }
+
+    .chip {
+      display: inline-block;
+      padding: 6px 10px;
+      margin: 4px 6px 0 0;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #1e3a8a;
+      font-weight: 600;
+      font-size: 0.9rem;
+      border: 1px solid #c7d2fe;
+    }
+
     footer {
       text-align: center;
       padding: 1rem;
-      background: #1f2937;
-      color: #9ca3af;
-      font-size: 0.9rem;
+      color: #64748b;
+      font-size: .9rem;
+    }
+
+    @media (min-width: 860px) {
+      .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
     }
   </style>
 </head>
@@ -70,38 +95,110 @@
     <h1>Kiruthika Ramadoss</h1>
     <p>Data Analytics • Machine Learning • Cloud</p>
     <nav>
-      <a href="https://github.com/KiruthikaRamadoss" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/YOUR-HANDLE" target="_blank">LinkedIn</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+      <a href="#demo">Live Demo</a>
     </nav>
   </header>
 
-  <main>
-    <section>
+  <main class="wrap">
+    <section id="about">
       <h2>About Me</h2>
       <p>
-        I am a Graduate Student at Texas State University and Vice President of Technology & Innovation at LevelUp.
-        Passionate about building data products end-to-end — from data engineering pipelines and cloud-based warehouses to
-        machine learning models that deliver real business insights.
+        Graduate student in <strong>Data Analytics & Information Systems</strong> at Texas State University (GPA 4.0). 
+        Vice President of Technology & Innovation at LevelUp. I build data products end-to-end —
+        <em>pipelines</em>, <em>Snowflake warehouses</em>, and <em>ML models</em> — to turn data into decisions.
+      </p>
+      <div>
+        <span class="chip">SQL</span>
+        <span class="chip">Python</span>
+        <span class="chip">Power BI</span>
+        <span class="chip">Snowflake</span>
+        <span class="chip">Spark</span>
+        <span class="chip">AWS (CLF-C02)</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Highlighted Projects</h2>
+      <div class="grid-2">
+        <div>
+          <h3>Twitter/X Sentiment Analysis</h3>
+          <p class="muted">TF-IDF + Logistic Regression / Naive Bayes / SVM with a Power BI dashboard.</p>
+          <p><a class="btn" href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis" target="_blank">Repository →</a></p>
+        </div>
+        <div>
+          <h3>Real-Time Anomaly Detection</h3>
+          <p class="muted">Kafka + Spark streaming with Isolation Forest to flag anomalous network traffic.</p>
+          <p><a class="btn" href="https://github.com/KiruthikaRamadoss/Real-Time-Network-Anomaly-Detection" target="_blank">Repository →</a></p>
+        </div>
+        <div>
+          <h3>Diabetes Prediction (ML)</h3>
+          <p class="muted">LogReg • Random Forest • SVM • Neural Network with clear evaluation reports.</p>
+          <p><a class="btn" href="https://github.com/KiruthikaRamadoss/Diabetes-Prediction-ML" target="_blank">Repository →</a></p>
+        </div>
+        <div>
+          <h3>Avocado Retailing Analysis</h3>
+          <p class="muted">EDA + forecasting (ARIMA/Prophet) and prescriptive LP for pricing & supply chain.</p>
+          <p><a class="btn" href="https://github.com/KiruthikaRamadoss/Avocado-Retailing-Analysis" target="_blank">Repository →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="dashboards">
+      <h2>Dashboards & Visualizations</h2>
+      <p>
+        <strong>Power BI – Twitter/X Sentiment</strong>:
+        <a href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf" target="_blank">
+          View Dashboard (PDF)
+        </a>
       </p>
     </section>
 
-    <section>
-      <h2>Highlighted Projects</h2>
+    <section id="certs">
+      <h2>Certifications</h2>
       <ul>
-        <li><strong>Twitter/X Sentiment Analysis</strong> — TF-IDF + Logistic Regression/Naive Bayes/SVM with Power BI dashboard 
-        (<a href="https://github.com/KiruthikaRamadoss/Sentiment-Analysis-of-Twitter" target="_blank">Repo</a>)</li>
-        <li><strong>Diabetes Prediction</strong> — Random Forest, SVM, Neural Network, clean evaluation reports 
-        (<a href="https://github.com/KiruthikaRamadoss" target="_blank">Repo</a>)</li>
-        <li><strong>Real-Time Anomaly Detection</strong> — Kafka + Spark streaming pipeline with Isolation Forest 
-        (<a href="https://github.com/KiruthikaRamadoss" target="_blank">Repo</a>)</li>
+        <li><a href="certificates/AWS%20Certified%20Cloud%20Practitioner%20certificate.pdf" target="_blank">AWS Certified Cloud Practitioner</a></li>
+        <li><a href="certificates/Certificate%20-%20Power%20BI%20Beginner%20to%20Pro.pdf" target="_blank">Power BI Beginner to Pro</a></li>
+        <li><a href="certificates/GEN%20AI.pdf" target="_blank">Databricks Generative AI</a></li>
+        <li><a href="certificates/Time%20Series%20Analysis%20in%20Power%20BI.pdf" target="_blank">Time Series Analysis in Power BI</a></li>
+        <li><a href="certificates/Data-Driven%20Decision%20Making%20in%20SQL%20certificate.pdf" target="_blank">Data-Driven Decision Making in SQL</a></li>
+        <li><a href="certificates/LLm%20certificate.pdf" target="_blank">Large Language Models (LLM) Concepts</a></li>
       </ul>
+      <p class="muted">Tip: keep this list short on the homepage. You can add a separate “Certifications” page later.</p>
     </section>
 
-    <section>
+    <section id="resume">
       <h2>Resume</h2>
+      <p>Download my latest resume:</p>
+      <p><a class="btn" href="resume/Kiruthika_Ramadoss_Resume.pdf" target="_blank">📄 Resume PDF</a></p>
+      <p class="muted">Place your file at <code>resume/Kiruthika_Ramadoss_Resume.pdf</code> in this repo.</p>
+    </section>
+
+    <section id="demo">
+      <h2>Interactive Demo (Streamlit)</h2>
+      <p>Open my interactive portfolio/demo in a new tab:</p>
       <p>
-        Download my latest resume: 
-        <a href="resume/Kiruthika_Ramadoss_Resume.pdf" target="_blank">📄 Resume PDF</a>
+        <a class="btn" href="https://your-app.streamlit.app" target="_blank">
+          Open Interactive Streamlit Demo
+        </a>
+      </p>
+      <!--
+      Optional inline embed (works only if the app allows embedding):
+      <iframe src="https://your-app.streamlit.app"
+              style="width:100%;height:720px;border:1px solid #223;border-radius:12px"
+              title="Streamlit App"></iframe>
+      -->
+      <p class="muted">Replace the URL above once you deploy your Streamlit app on Streamlit Community Cloud.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:k_r549@txstate.edu">k_r549@txstate.edu</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/kiruthikaramadoss/" target="_blank">linkedin.com/in/kiruthikaramadoss</a><br>
+        GitHub: <a href="https://github.com/KiruthikaRamadoss" target="_blank">github.com/KiruthikaRamadoss</a>
       </p>
     </section>
   </main>
@@ -109,6 +206,5 @@
   <footer>
     © <script>document.write(new Date().getFullYear())</script> Kiruthika Ramadoss
   </footer>
-
 </body>
 </html>
