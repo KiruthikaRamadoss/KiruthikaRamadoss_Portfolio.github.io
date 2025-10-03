@@ -7,58 +7,108 @@
   <meta name="description" content="Data Analytics • Machine Learning • Cloud" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
   <style>
     :root{
       --bg:#ffffff; --text:#0f172a; --muted:#475569; --line:#e2e8f0;
       --brand:#1d4ed8; --brand-weak:#eff6ff; --card:#ffffff;
       --shadow:0 10px 24px rgba(2,6,23,.06); --radius:16px; --radius-sm:12px; --max:1060px;
     }
+
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
-    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:var(--bg)}
-    header{position:sticky;top:0;z-index:50;background:#fffefc;border-bottom:1px solid var(--line);backdrop-filter:saturate(140%) blur(6px)}
-    .bar{max-width:var(--max);margin:0 auto;padding:16px 20px;display:flex;align-items:center;gap:20px}
-    .brand{font-family:Playfair Display,serif;font-weight:600;font-size:22px;letter-spacing:.2px}
-    nav{margin-left:auto;display:flex;gap:18px;flex-wrap:wrap}
-    nav a{color:#334155;text-decoration:none;padding:8px 10px;border-radius:10px}
-    nav a:hover{background:var(--brand-weak);color:var(--brand)}
-    .wrap{max-width:var(--max);margin:0 auto;padding:28px 20px}
-    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:26px;align-items:center}
-    @media (max-width:900px){.hero{grid-template-columns:1fr}nav{justify-content:flex-end}}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:26px}
-    h1{font-size:40px;line-height:1.15;margin:0 0 8px;font-weight:700}
-    h2{font-size:24px;margin:0 0 14px}
-    p{color:var(--muted);margin:10px 0}
-    .lead{font-size:18px;color:#1e293b}
-    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
-    .chip{padding:8px 12px;border-radius:999px;border:1px solid #c7d2fe;background:#f8fafc;color:#1e3a8a;font-weight:600;font-size:.92rem}
-    .btn{display:inline-block;padding:10px 14px;border-radius:12px;font-weight:700;text-decoration:none;background:var(--brand);color:#fff;border:1px solid #1e40af}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--text); background:var(--bg)
+    }
+
+    /* Top bar */
+    header{
+      position:sticky; top:0; z-index:50; background:#fffefc;
+      border-bottom:1px solid var(--line);
+      backdrop-filter:saturate(140%) blur(6px);
+    }
+    .bar{max-width:var(--max); margin:0 auto; padding:16px 20px; display:flex; align-items:center; gap:20px}
+    .brand{font-family:Playfair Display,serif; font-weight:600; font-size:22px; letter-spacing:.2px}
+    nav{margin-left:auto; display:flex; gap:18px; flex-wrap:wrap}
+    nav a{color:#334155; text-decoration:none; padding:8px 10px; border-radius:10px}
+    nav a:hover{background:var(--brand-weak); color:var(--brand)}
+
+    /* Layout */
+    .wrap{max-width:var(--max); margin:0 auto; padding:28px 20px}
+    .hero{display:grid; grid-template-columns:1.2fr .8fr; gap:26px; align-items:center}
+    @media (max-width:900px){ .hero{grid-template-columns:1fr} nav{justify-content:flex-end} }
+
+    /* Cards */
+    .card{
+      background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+      box-shadow:var(--shadow); padding:26px
+    }
+    h1{font-size:40px; line-height:1.15; margin:0 0 8px; font-weight:700}
+    h2{font-size:24px; margin:0 0 14px}
+    p{color:var(--muted); margin:10px 0}
+    .lead{font-size:18px; color:#1e293b}
+
+    /* Chips & buttons */
+    .chips{display:flex; flex-wrap:wrap; gap:10px; margin-top:12px}
+    .chip{padding:8px 12px; border-radius:999px; border:1px solid #c7d2fe; background:#f8fafc; color:#1e3a8a; font-weight:600; font-size:.92rem}
+    .btn{display:inline-block; padding:10px 14px; border-radius:12px; font-weight:700; text-decoration:none; background:var(--brand); color:#fff; border:1px solid #1e40af}
     .btn:hover{filter:brightness(1.05)}
-    .btn.ghost{background:#fff;color:#1e40af;border:1px solid #c7d2fe}
+    .btn.ghost{background:#fff; color:#1e40af; border:1px solid #c7d2fe}
     .section{margin-top:26px}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-    @media (max-width:900px){.grid{grid-template-columns:1fr}}
-    .proj{border-radius:var(--radius-sm);padding:18px;border:1px solid var(--line);background:#fff}
-    .proj h3{margin:0 0 8px;font-size:18px}
+
+    /* Projects grid */
+    .grid{display:grid; grid-template-columns:1fr 1fr; gap:18px}
+    @media (max-width:900px){ .grid{grid-template-columns:1fr} }
+    .proj{border-radius:var(--radius-sm); padding:18px; border:1px solid var(--line); background:#fff}
+    .proj h3{margin:0 0 8px; font-size:18px}
     .proj p{margin:0 0 10px}
-    .toc a{display:inline-block;margin:6px 10px 0 0;text-decoration:none;color:#0f172a;background:#f8fafc;padding:8px 12px;border-radius:999px;border:1px solid var(--line)}
-    .toc a:hover{background:var(--brand-weak);border-color:#bfdbfe;color:#1d4ed8}
-    .photo{width:220px;height:220px;border-radius:50%;overflow:hidden;margin:0 auto;position:relative}
-    .photo img{width:100%;height:100%;object-fit:cover;display:block;border-radius:50%;
-      box-shadow:0 8px 20px rgba(0,0,0,.12);}
-    .photo::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid #bfdbfe;pointer-events:none}
-    footer{border-top:1px solid var(--line);margin-top:28px}
-    .foot{max-width:var(--max);margin:0 auto;padding:18px 20px;color:#64748b;font-size:.95rem;text-align:center}
+
+    /* Photo */
+    .photo{width:220px; height:220px; border-radius:50%; overflow:hidden; margin:0 auto; position:relative}
+    .photo img{width:100%; height:100%; object-fit:cover; display:block; border-radius:50%; box-shadow:0 8px 20px rgba(0,0,0,.12)}
+    .photo::after{content:""; position:absolute; inset:-6px; border-radius:50%; border:2px solid #bfdbfe; pointer-events:none}
+
+    /* Footer */
+    footer{border-top:1px solid var(--line); margin-top:28px}
+    .foot{max-width:var(--max); margin:0 auto; padding:18px 20px; color:#64748b; font-size:.95rem; text-align:center}
+
+    /* ---------- Professional list styling ---------- */
+    .section h2{font-size:26px; margin:0 0 12px; letter-spacing:-.01em; color:#0f172a}
+    .eyebrow{
+      display:inline-block; font-size:12px; font-weight:600; letter-spacing:.08em;
+      color:#94a3b8; text-transform:uppercase; margin-bottom:6px;
+    }
+    .klist{ list-style:none; padding:0; margin:0; }
+    .klist li{
+      position:relative; padding-left:28px; margin:10px 0; color:#334155; line-height:1.55;
+    }
+    .klist li::before{
+      content:""; width:10px; height:10px; border-radius:50%; background:#1d4ed8;
+      position:absolute; left:0; top:10px; box-shadow:0 0 0 5px #eff6ff;
+    }
+    .klist strong{ color:#0f172a; font-weight:600; }
+    .kgrid{ display:grid; grid-template-columns:1fr 1fr; gap:10px 28px; }
+    @media (max-width:900px){ .kgrid{ grid-template-columns:1fr; } }
   </style>
 </head>
+
 <body>
+  <!-- Top navigation -->
   <header>
     <div class="bar">
       <div class="brand">Kiruthika Ramadoss</div>
       <nav>
-        <a href="#currently">Currently</a><a href="#highlights">Highlights</a><a href="#projects">Projects</a>
-        <a href="#dashboards">Dashboards</a><a href="#certs">Certifications</a><a href="#awards">Honors & Awards</a>
-        <a href="#pubs">Publications</a><a href="#toolkit">Toolkit</a><a href="#contact">Contact</a>
+        <a href="#currently">Currently</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#projects">Projects</a>
+        <a href="#dashboards">Dashboards</a>
+        <a href="#certs">Certifications</a>
+        <a href="#awards">Honors & Awards</a>
+        <a href="#pubs">Publications</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
@@ -68,13 +118,16 @@
     <section class="hero section">
       <div class="card">
         <h1>Hi there, I'm Kiruthika Ramadoss 👋</h1>
-        <p class="lead">I’m a data enthusiast with <strong>4+ years</strong> of experience across analytics, program management, and cloud. I love turning data into decisions with <strong>Python</strong>, <strong>SQL</strong>, <strong>Power BI</strong>, and ML.</p>
+        <p class="lead">
+          I’m a data enthusiast with <strong>4+ years</strong> of experience across analytics, program management, and cloud.
+          I love turning data into decisions with <strong>Python</strong>, <strong>SQL</strong>, <strong>Power BI</strong>, and ML.
+        </p>
         <p class="lead">Graduating <strong>Dec 2025</strong> • Open to roles in Data Analytics, Data Engineering, Program Management, and Machine Learning</p>
         <div class="chips">
           <span class="chip">SQL</span><span class="chip">Python</span><span class="chip">Power BI</span>
           <span class="chip">Snowflake</span><span class="chip">Spark</span><span class="chip">AWS (CLF-C02)</span>
         </div>
-        <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+        <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap">
           <a class="btn" href="https://github.com/KiruthikaRamadoss" target="_blank">GitHub</a>
           <a class="btn ghost" href="https://www.linkedin.com/in/kiruthikaramadoss/" target="_blank">LinkedIn</a>
           <a class="btn ghost" href="#contact">Email</a>
@@ -87,25 +140,15 @@
             src="https://raw.githubusercontent.com/KiruthikaRamadoss/KiruthikaRamadoss_Portfolio.github.io/main/certificates/Github.jpg"
             alt="Kiruthika Ramadoss">
         </div>
-        <p style="margin-top:12px;color:#64748b">Texas State University • Level Up (VP Tech & Innovation)</p>
-      </div>
-    </section>
-
-    <!-- TOC -->
-    <section class="card section">
-      <h2>📑 Table of Contents</h2>
-      <div class="toc">
-        <a href="#currently">⚒️ Currently</a><a href="#highlights">🌟 Highlights</a><a href="#projects">💡 Projects I've Worked On</a>
-        <a href="#dashboards">📊 Dashboards & Visualizations</a><a href="#certs">🎓 Certifications</a>
-        <a href="#awards">📜 Honors & Awards</a><a href="#pubs">📃 Publications</a>
-        <a href="#toolkit">🛠️ My Toolkit</a><a href="#contact">🤝 Let’s Connect!</a>
+        <p style="margin-top:12px; color:#64748b">Texas State University • Level Up (VP Tech & Innovation)</p>
       </div>
     </section>
 
     <!-- CURRENTLY -->
     <section id="currently" class="card section">
-      <h2>⚒️ Currently</h2>
-      <ul>
+      <div class="eyebrow">Overview</div>
+      <h2>Currently</h2>
+      <ul class="klist">
         <li>Graduate student in <strong>Data Analytics & Information Systems</strong> at Texas State University (GPA 4.0)</li>
         <li><strong>Vice President, Technology & Innovation</strong> at Level Up student organization</li>
         <li><strong>Alpha Chi National College Honor Society</strong> member</li>
@@ -116,8 +159,9 @@
 
     <!-- HIGHLIGHTS -->
     <section id="highlights" class="card section">
-      <h2>🌟 Highlights</h2>
-      <ul>
+      <div class="eyebrow">Notable</div>
+      <h2>Highlights</h2>
+      <ul class="klist kgrid">
         <li><strong>Texas State Graduate Merit Fellowship & Competitive Scholarship (2024–2025)</strong></li>
         <li><strong>4.0 GPA</strong> — MS in Data Analytics & Information Systems</li>
         <li><strong>Chief Minister’s Award (2018)</strong> — E-Governance Student Hackathon</li>
@@ -178,7 +222,7 @@
       <p><strong>Power BI — Twitter/X Sentiment:</strong>
         <a href="https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf" target="_blank">View Dashboard (PDF)</a>
       </p>
-      <ul>
+      <ul class="klist">
         <li>Sentiment by time of day</li>
         <li>Sentiment by age group</li>
         <li>Class proportions</li>
@@ -229,7 +273,7 @@
     <section id="pubs" class="card section">
       <h2>📃 Publications</h2>
       <p><strong>Data-Driven Analysis for Reduction of Air Pollution in Urban Areas</strong> — IEEE Xplore, 2019 International Conference on Systems, Computing, and Networking (ICSCAN).</p>
-      <ul>
+      <ul class="klist">
         <li>Developed a scalable, real-time air quality monitoring system.</li>
         <li>Enabled real-time data collection and environmental analysis for smart cities.</li>
       </ul>
@@ -261,7 +305,9 @@
     </section>
   </main>
 
-  <footer><div class="foot">© <span id="y"></span> Kiruthika Ramadoss</div></footer>
+  <footer>
+    <div class="foot">© <span id="y"></span> Kiruthika Ramadoss</div>
+  </footer>
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
