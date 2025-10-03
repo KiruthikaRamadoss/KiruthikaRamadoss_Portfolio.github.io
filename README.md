@@ -244,7 +244,7 @@ Received recognition at CII Connect 2018 with the Chief Minister’s Award for E
 
 - [LinkedIn](https://www.linkedin.com/in/kiruthikaramadoss/)
 - [GitHub](https://github.com/KiruthikaRamadoss)  
-- [Email](mailto:k_r549@txstate.edu)
+- [Email](mailto:kiruthikaramadoss12@gmail.com)
 
 ---
 
