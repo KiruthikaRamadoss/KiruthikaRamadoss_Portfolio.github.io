@@ -156,7 +156,7 @@ Power BI dashboard visualizes:
 - Sentiment distribution by age group
 - Sentiment class proportions
 
-[View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
+- [View Dashboard](https://github.com/KiruthikaRamadoss/Twitter-X-Sentiment-Analysis/blob/main/Power%20BI%20Dashboard.pdf)
 
 
 **Power BI**: U.S. Bank Failures: A Data-Driven Summary
