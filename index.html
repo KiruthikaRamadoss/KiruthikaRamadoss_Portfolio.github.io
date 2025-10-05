@@ -78,11 +78,11 @@
 
     .hero-title{
       font-size:54px; line-height:1.02; font-weight:800;
-      margin:4px 0 32px;                 /* more space under name */
+      margin:4px 0 32px;
     }
     .lead{
       color:var(--muted); font-size:18px;
-      margin:0 0 16px;                   /* consistent spacing */
+      margin:0 0 16px;
     }
     .hero .card .lead:last-of-type{ margin-bottom:22px; }
 
@@ -129,7 +129,7 @@
     h2{margin:0 0 20px; font-size:26px}
     h3{margin:0 0 10px; font-size:22px}
     .meta{color:var(--muted); margin:8px 0 14px}
-    #work .card > h2{ margin-bottom:22px; }  /* extra space under Projects heading */
+    #work .card > h2{ margin-bottom:22px; }
 
     /* Links (calmer color) */
     a.link{
@@ -167,7 +167,7 @@
     }
 
     /* =========================
-       TOOLKIT — clean layout
+       TOOLKIT — unified styling
        ========================= */
     section.toolkit .tk-grid{
       display:grid;
@@ -180,52 +180,44 @@
 
     section.toolkit .tk-card{
       background:var(--panel-2);
-      border:1px solid rgba(255,255,255,.06);
+      border:1px solid var(--line);
       border-radius:var(--radius);
-      padding:22px 24px;
+      padding:24px;
       box-shadow:inset 0 0 0 1px rgba(255,255,255,.02);
     }
 
     section.toolkit .tk-card h3{
-      font-size:22px;
+      color:var(--text);
       font-weight:800;
-      margin:12px 0 8px;
-      padding-left:2px; /* tiny visual offset */
+      font-size:28px;              /* same in both columns */
+      margin:0 0 10px;
+      padding-left:2px;
     }
 
-    section.toolkit ul.clean{
-      list-style:none;
-      margin:6px 0 16px 12px;   /* nudge bullets right */
+    section.toolkit .tk-card ul.clean{
+      list-style:none;             /* kill native bullets */
+      margin:8px 0 18px 16px;      /* indent block a touch */
       padding:0;
     }
-    section.toolkit ul.clean li{
+    section.toolkit .tk-card ul.clean li{
       position:relative;
-      padding-left:18px;         /* align text neatly */
-      margin:8px 0;
-      line-height:1.55;
-      color:var(--text);         /* readable list text */
+      margin:10px 0;
+      padding-left:20px;           /* space for custom bullet */
+      line-height:1.6;
+      color:var(--text);           /* not muted */
     }
-    /* white, subtle custom bullet */
-    section.toolkit ul.clean li::before{
+    section.toolkit .tk-card ul.clean li::before{
       content:"";
       position:absolute;
-      left:2px; top:.78em;
-      width:5px; height:5px;
+      left:-14px;
+      top:.75em;
+      width:6px; height:6px;
       border-radius:50%;
-      background:#fff;
-      opacity:.9;
+      background:#fff;             /* white bullets */
     }
 
-    /* optional rhythm between list blocks */
-    section.toolkit .tk-card h3 + ul.clean{ padding-top:2px; }
-    section.toolkit .tk-card ul.clean + h3{ margin-top:14px; }
-
-    /* === GLOBAL WHITE BULLETS for normal lists === */
-    ul li::marker,
-    ol li::marker{
-      color:#fff;
-      opacity:1;
-    }
+    /* Global white markers for default lists */
+    ul li::marker, ol li::marker{ color:#fff; }
 
     /* Slim list defaults (certs/awards) */
     ul.slim{ margin:8px 0 0 20px; }
@@ -485,4 +477,4 @@
   <footer><div class="foot">© <span id="y"></span> Kiruthika Ramadoss</div></footer>
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
-</html> 
+</html>
