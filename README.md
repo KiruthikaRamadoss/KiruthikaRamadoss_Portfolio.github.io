@@ -27,11 +27,11 @@
 - Graduate student in **Data Analytics & Information Systems** at Texas State University (Current GPA: 4.0)
 - Serving as **Vice President of Technology & Innovation** at Level Up student organization
 - **Alpha Chi National College Honor Society** member
-- Gaining expertise in **data analytics, business intelligence, cloud-based solutions, and program management** to bridge technical insights with strategic decision-making
+- Gaining expertise in **data analytics, business intelligence, supply chain analytics, cloud-based solutions, and program management** to bridge technical insights with strategic decision-making
 - Designing and implementing **end-to-end data pipelines, interactive dashboards, and machine learning models** with Python, SQL, Power BI, and cloud platforms to support data-driven business solutions
 
 
-**Graduating Dec 2025 | Open to Full-Time Roles in Data Analytics, Data Engineering, Program Management, and Machine Learning**
+**Graduating Dec 2025 | Open to Full-Time Roles in Data Analytics, Data Engineering, Program Management, Supply Chain Analytics and Machine Learning**
 
 ---
 
