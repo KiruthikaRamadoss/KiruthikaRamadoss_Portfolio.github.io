@@ -31,7 +31,7 @@
 - Designing and implementing **end-to-end data pipelines, interactive dashboards, and machine learning models** with Python, SQL, Power BI, and cloud platforms to support data-driven business solutions
 
 
-**Graduating Dec 2025 | Open to Internship and Full-Time Roles in Data Analytics, Data Engineering, Program Management, Supply Chain Analytics and Machine Learning**
+**Open to Internship and Full-Time Roles in Data Analytics, Data Engineering, Program Management, Supply Chain Analytics and Machine Learning**
 
 ---
 
