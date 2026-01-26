@@ -163,6 +163,21 @@ A Power BI dashboard designed to analyze and visualize U.S. bank failures, highl
 - Built interactive features such as year slicers, animated yearly trends, tooltips, and geographic heat maps for deep exploration
 - **Technologies Used:** Power BI, Data Visualization, Microsoft Excel (data preprocessing)
 
+8. Tabu Search Optimization – Traveling Salesman Problem (TSP)
+
+🔗 [View GitHub Repository](https://github.com/KiruthikaRamadoss/Tabu-Search-Optimization)
+
+A metaheuristic optimization project that applies Tabu Search to solve a simplified Traveling Salesman Problem (TSP) with five cities, showcasing how memory-based search techniques improve route efficiency.
+
+**Key Contributions:**
+
+- Implemented Tabu Search with 2-opt neighborhood operator and adaptive tabu list
+- Reduced tour cost from 114 to 84, achieving ~26% improvement
+- Applied aspiration criteria to override tabu status and escape local optima.
+- Analyzed algorithm behavior over iterations, including convergence patterns and strategic moves.
+- Presented findings via a detailed report and slides for academic presentation.
+- **Technologies Used:**: Python, Metaheuristic Design, Distance Matrix, Route Cost Evaluation
+
 ---
 
 ## 📊 Dashboards & Visualizations:
