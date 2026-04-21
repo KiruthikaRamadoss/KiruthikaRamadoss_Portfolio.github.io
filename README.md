@@ -2,9 +2,10 @@
 
 **Welcome to my GitHub profile!**
 
-- I'm a data enthusiast with **4+ years of experience** delivering business solutions through data analysis, program management, and cloud technologies
-- I’m passionate about turning data into actionable insights and building scalable, real-world solutions
-- With a technical expertise in Python, SQL, Tableau and Power BI, I enjoy applying analytics, automation, and Machine Learning to solve complex problems and drive decision-making
+- I am a Data Scientist with **4+ years of experience** leveraging data analysis and machine learning to solve complex business problems  
+- Passionate about transforming data into actionable insights and building scalable, real-world solutions  
+- Skilled in Python, SQL, Power BI, and Tableau, with experience in predictive modeling, feature engineering, and analytics to drive data-informed decision-making
+
 
 ---
 
